@@ -22,6 +22,16 @@ Completed on 2026-04-23.
 - Timestamp fallback is `Snapshot unavailable`.
 - Verification log: `logs/snapshot_fallback_fix.md`.
 
+## Generated Media Kit Refresh
+
+- Status: completed locally; redeploy pending.
+- Replaced downloadable Media Kit SVG references with generated/composited PNG assets inspired by the rounded mint robot reference.
+- Updated homepage mascot image to the generated PNG.
+- Square and wide promo downloads include exact disclosure/risk text rendered by code, not AI-generated text.
+- Generated/composited assets contain no logos, no OpenAI/ChatGPT branding, and no financial hype.
+- Disclosure/risk language remains on the Media Kit page.
+- Public posting on X/Telegram was not performed.
+
 ## Telegram
 
 - Telegram was open/logged in and the `chatty` group was visible.

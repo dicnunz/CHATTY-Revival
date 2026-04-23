@@ -8,7 +8,7 @@ Completed on 2026-04-23.
 - Public repo: `https://github.com/dicnunz/CHATTY-Revival`
 - Public site: `https://dicnunz.github.io/CHATTY-Revival/`
 - Static public site in `site/` with Home, Disclosure, Current State, Transparency Log, Media Kit, FAQ, and Community Guidelines.
-- Original local SVG mascot/media assets in `assets/` and `site/assets/`.
+- Original generated/composited PNG mascot/media assets in `assets/` and `site/assets/`.
 - Read-only public data workflow in `dashboard/`.
 - Timestamped snapshots in `data/snapshots/`.
 - Research files in `research/`.
@@ -46,7 +46,7 @@ Snapshot timestamp: `2026-04-23T19:57:39Z`
 - Public repo docs: `README.md`, `DISCLAIMER.md`, `COMMUNITY_GUIDELINES.md`, `CONTRIBUTING.md`, `CONTENT_RULES.md`.
 - Telegram pinned/rules drafts.
 - X week-one drafts and reply bank.
-- Media kit SVG assets.
+- Media kit generated/composited PNG assets.
 
 ## Needs Human Approval
 
@@ -69,7 +69,7 @@ Snapshot timestamp: `2026-04-23T19:57:39Z`
 - No DMs.
 - No fake engagement.
 - No legal-risk tactics.
-- No OpenAI Image API calls, because the project has a no-spend boundary.
+- No paid promotion, public posting, wallet action, or trading was performed.
 
 ## Verification
 

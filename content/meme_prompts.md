@@ -7,11 +7,10 @@ Use only original assets. Do not use OpenAI, ChatGPT, X, Telegram, DEX Screener,
 3. A simple comic panel where CHATTY refuses a megaphone and points to a transparency log; no trading language.
 4. A square meme card reading "NO HYPE / JUST RECEIPTS"; abstract robot mascot; clear unofficial disclaimer in small text.
 5. A tiny robot sweeping fake screenshots into a trash bin labeled "bad ideas"; no platform logos.
-6. A CHATTY mascot with a timestamp machine printing public source notes; cheerful but restrained.
+6. A CHATTY mascot with a source-notes printer; cheerful but restrained.
 7. A split panel: left says "claims"; right says "sources"; CHATTY chooses sources.
 8. A sticker-style mascot holding the exact mint address on a clipboard; no recommendations.
 9. A community meme template with blank speech bubble and footer: "unofficial, not affiliated, can go to zero."
 10. A minimal banner with CHATTY mascot, disclosure text, and a "public log updated" stamp.
 
-Image API generation was not run in this workspace because the project has a no-spend boundary. The included SVG assets are original local vector assets.
-
+Generated media kit assets now live in `assets/` and `site/assets/`. They use original rounded robot art and code-rendered disclosure/risk text, with no logos, no company branding, and no financial hype. Use them only with the required CHATTY disclosure.
