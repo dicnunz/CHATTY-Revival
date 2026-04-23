@@ -5,6 +5,7 @@ Completed on 2026-04-23.
 ## What I Built
 
 - Local repo: `CHATTY-Revival`.
+- Public repo: `https://github.com/dicnunz/CHATTY-Revival`
 - Public site: `https://dicnunz.github.io/CHATTY-Revival/`
 - Static public site in `site/` with Home, Disclosure, Current State, Transparency Log, Media Kit, FAQ, and Community Guidelines.
 - Original local SVG mascot/media assets in `assets/` and `site/assets/`.

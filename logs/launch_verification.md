@@ -2,7 +2,8 @@
 
 Date: 2026-04-23
 
-Expected public site URL for launch: `https://dicnunz.github.io/CHATTY-Revival/`
+Public site URL confirmed: `https://dicnunz.github.io/CHATTY-Revival/`
+Public repo confirmed: `https://github.com/dicnunz/CHATTY-Revival`
 
 ## Safety Review
 
