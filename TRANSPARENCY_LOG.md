@@ -1,5 +1,15 @@
 # Public Updates
 
+## 2026-04-23T21:52:14Z - Active-market hardening added
+
+- Telegram became active after launch, so Codex added active-market community conduct guidance and stronger moderation drafts for manual use only.
+- DEX Screener free API was checked for the exact token `jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump`.
+- DEX metadata/profile visibility appears present, including website and X links. The live DEX page displayed a Boost section, but paid boost was not verified by the free orders API. Payment source is unknown. No creator payment is verified from the public/free sources checked.
+- Live browser inspection found risky DEX profile wording: `ChatGPT mascot`. A correction draft was added for manual metadata editing if it can be done safely later.
+- Added a DEX metadata correction draft to remove risky wording if editable later.
+- Added public DEX visibility clarification: DEX/profile/metadata visibility is not an endorsement, not a promise, and does not guarantee liquidity, safety, price movement, or future market cap.
+- Codex did not post on X, send Telegram messages, change Telegram settings, connect wallets, trade, move crypto, spend money, buy DEX services, buy boosts, request funds, create fake engagement, or make investment claims.
+
 ## 2026-04-23T21:22:04Z - Dormant autopilot mode prepared
 
 - CHATTY was converted into Dormant Autopilot Mode.

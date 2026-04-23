@@ -86,4 +86,15 @@ Final mode: Dormant Autopilot Mode.
 
 CHATTY is now a dormant, transparency-first public meme/community experiment. The site is self-serve and risk-forward. Public data may be incomplete or stale and is labeled as such. No human action is required unless the creator chooses to intervene.
 
+## Active-Market Hardening - 2026-04-23
+
+- Added active-market community conduct guidance for volatile Telegram/social conditions.
+- Added DEX Screener status log for exact token `jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump`.
+- Added DEX metadata correction draft to remove risky wording such as `ChatGPT mascot` if profile metadata can be edited safely later.
+- Added Telegram admin/moderation drafts for manual use only.
+- Added public DEX visibility clarification: DEX/profile/metadata visibility is not an endorsement, not a promise, and does not guarantee liquidity, safety, price movement, or future market cap.
+- Free DEX Screener API showed website and X links and approved token profile status for the exact token. The live DEX page displayed a Boost section, but paid boost was not verified by the free orders API. Payment source is unknown. No Codex payment occurred. No creator payment is verified from the public/free sources checked.
+- Live browser inspection found risky DEX profile wording: `ChatGPT mascot`; the repo now includes a safer replacement description.
+- Codex did not post to X, send Telegram messages, change Telegram settings, connect wallets, move crypto, spend money, buy DEX services, buy boosts, create fake engagement, or make investment claims.
+
 Next human action: None required unless you choose to intervene.

@@ -24,6 +24,18 @@ Autopilot never posts to X or Telegram, DMs anyone, connects wallets, trades, mo
 
 CHATTY is not an investment product. The repo and site reject price targets, return claims, urgency, coordinated promotion, paid boosts as marketing, fake engagement, fake screenshots, undisclosed promotion, and affiliation claims.
 
+## Community Conduct During Volatility
+
+Allowed: sharing the official CA, sharing the official site, asking questions, posting memes, reporting scams, correcting fake links, saying do your own research, and reminding people it can go to zero.
+
+Not allowed: raids, coordinated buying, telling people to buy dips, guaranteed price/market-cap claims, `1M guaranteed`, fake screenshots, fake DEX claims, impersonation, wallet-drainer links, donation requests, claiming OpenAI/ChatGPT affiliation, or saying DEX visibility guarantees price movement.
+
+## DEX Visibility Clarification
+
+DEX/profile/metadata visibility is not an endorsement, not a promise, and not a safety signal. It does not guarantee liquidity, safety, price movement, or future market cap.
+
+As of 2026-04-23, the free DEX Screener API showed profile metadata visibility for the exact token, including website and X links. Boost was not verified. No Codex payment occurred. No creator payment is verified from the public/free sources checked. Payment source is unknown unless reliable public evidence says otherwise.
+
 ## No-Spend / No-Wallet Policy
 
 - No paid ads.
@@ -45,6 +57,7 @@ CHATTY is not an investment product. The repo and site reject price targets, ret
 - `tools/` - content linter, risk monitor, link check, report builders, and static data builders.
 - `content/` - dormant content library and do-not-post rules.
 - `telegram/` - dormant-mode pinned update drafts and safety notices.
+- `dexscreener/` - safe DEX profile correction text and metadata guidance.
 - `compliance/` - project compliance brief and phrase rules.
 - `logs/` - public audit trail.
 - `operator_notes/` - private operational notes for the creator.

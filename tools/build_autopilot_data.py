@@ -17,6 +17,11 @@ SITE_DATA = ROOT / "site" / "data"
 UNAVAILABLE = "Unavailable from free public snapshot"
 TOKEN_ADDRESS = "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
 PAIR_ADDRESS = "CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh"
+SITE_URL = "https://dicnunz.github.io/CHATTY-Revival/"
+REPO_URL = "https://github.com/dicnunz/CHATTY-Revival"
+CREATOR_X = "https://x.com/nicdunz"
+INITIAL_X_POST_URL = "https://x.com/nicdunz/status/2047417227528265963"
+TELEGRAM_URL = "https://t.me/+7A8xRcI8IHM3MWIx"
 
 
 def now_iso() -> str:
@@ -90,18 +95,34 @@ def build_source_status(latest: dict[str, Any] | None) -> dict[str, Any]:
             {
                 "key": "x_post_url",
                 "label": "Initial X transparency post URL",
-                "url": UNAVAILABLE,
-                "ok": False,
-                "confidence": "unavailable",
-                "error": "URL was not available from the browser/session or exact public search.",
+                "url": INITIAL_X_POST_URL,
+                "ok": True,
+                "confidence": "verified",
+                "error": "",
             },
             {
                 "key": "telegram_public_link",
                 "label": "Telegram public link",
-                "url": UNAVAILABLE,
-                "ok": False,
+                "url": TELEGRAM_URL,
+                "ok": True,
                 "confidence": "manual",
-                "error": "No intentionally public Telegram link is known.",
+                "error": "Provided by the human as the intentionally public invite link.",
+            },
+            {
+                "key": "dex_profile_visibility",
+                "label": "DEX Screener token profile metadata visibility",
+                "url": f"https://dexscreener.com/solana/{PAIR_ADDRESS.lower()}",
+                "ok": True,
+                "confidence": "verified",
+                "error": "Free API shows profile metadata fields and approved tokenProfile order; payment source unknown.",
+            },
+            {
+                "key": "dex_boost",
+                "label": "DEX Screener boost status",
+                "url": f"https://api.dexscreener.com/orders/v1/solana/{TOKEN_ADDRESS}",
+                "ok": False,
+                "confidence": "unavailable",
+                "error": "Boost not verified; free API returned an empty boosts array.",
             },
         ]
     )
@@ -119,13 +140,22 @@ def build_manifest() -> dict[str, Any]:
         "name": "chatty",
         "ticker": "CHATTY",
         "mode": "Dormant Autopilot Mode",
-        "site_url": "https://dicnunz.github.io/CHATTY-Revival/",
-        "repo_url": "https://github.com/dicnunz/CHATTY-Revival",
-        "creator_x": "https://x.com/nicdunz",
-        "telegram": UNAVAILABLE,
+        "site_url": SITE_URL,
+        "repo_url": REPO_URL,
+        "creator_x": CREATOR_X,
+        "initial_x_post_url": INITIAL_X_POST_URL,
+        "telegram": TELEGRAM_URL,
         "token_address": TOKEN_ADDRESS,
         "pair_address": PAIR_ADDRESS,
+        "dexscreener_url": f"https://dexscreener.com/solana/{PAIR_ADDRESS.lower()}",
         "disclosure": "CHATTY is an unofficial meme/community token by @nicdunz. It is not affiliated with OpenAI, ChatGPT, or any other company. The creator may benefit financially from trading activity and/or creator fees. This is not financial advice. No promises, no guarantees. Meme tokens are highly volatile and can go to zero. Do your own research.",
+        "active_market_hardening_completed": True,
+        "social_autoposting": False,
+        "wallet_actions": False,
+        "creator_payment_to_dex_verified": False,
+        "third_party_dex_payment_or_metadata_status": "unclear",
+        "dex_boost_verified": False,
+        "dex_visibility_note": "DEX/profile/metadata visibility is not an endorsement, not a promise, and does not guarantee liquidity, safety, price movement, or future market cap.",
         "autopilot_scope": [
             "read-only public data snapshots",
             "static site updates",
@@ -160,6 +190,12 @@ def build_autopilot_status(final: bool = False) -> dict[str, Any]:
         "no_paid_services": True,
         "no_social_autoposting": True,
         "no_investment_claims": True,
+        "active_market_hardening_completed": True,
+        "social_autoposting": False,
+        "wallet_actions": False,
+        "creator_payment_to_dex_verified": False,
+        "third_party_dex_payment_or_metadata_status": "unclear",
+        "dex_boost_verified": False,
         "dormant": True,
         "final": final,
     }

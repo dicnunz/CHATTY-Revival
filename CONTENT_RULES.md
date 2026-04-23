@@ -22,4 +22,7 @@ Avoid:
 - Fake endorsements.
 - Impersonation.
 - Paid promotion without disclosure and approval.
+- DEX visibility framed as endorsement, safety, or future price movement.
+- Raids, coordinated buying, buy-dip instructions, guaranteed price/market-cap claims, fake DEX claims, donation requests, or OpenAI/ChatGPT affiliation claims.
 
+DEX/profile/metadata visibility is not an endorsement, not a promise, and not a safety signal. It does not guarantee liquidity, safety, price movement, or future market cap.

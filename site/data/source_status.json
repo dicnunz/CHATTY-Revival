@@ -81,22 +81,38 @@
       "url": "https://api.mainnet-beta.solana.com"
     },
     {
-      "confidence": "unavailable",
-      "error": "URL was not available from the browser/session or exact public search.",
+      "confidence": "verified",
+      "error": "",
       "key": "x_post_url",
       "label": "Initial X transparency post URL",
-      "ok": false,
-      "url": "Unavailable from free public snapshot"
+      "ok": true,
+      "url": "https://x.com/nicdunz/status/2047417227528265963"
     },
     {
       "confidence": "manual",
-      "error": "No intentionally public Telegram link is known.",
+      "error": "Provided by the human as the intentionally public invite link.",
       "key": "telegram_public_link",
       "label": "Telegram public link",
+      "ok": true,
+      "url": "https://t.me/+7A8xRcI8IHM3MWIx"
+    },
+    {
+      "confidence": "verified",
+      "error": "Free API shows profile metadata fields and approved tokenProfile order; payment source unknown.",
+      "key": "dex_profile_visibility",
+      "label": "DEX Screener token profile metadata visibility",
+      "ok": true,
+      "url": "https://dexscreener.com/solana/cjazvo7knarsgqubnkmwfv5ukurxqzxt4c4raw1eybhh"
+    },
+    {
+      "confidence": "unavailable",
+      "error": "Boost not verified; free API returned an empty boosts array.",
+      "key": "dex_boost",
+      "label": "DEX Screener boost status",
       "ok": false,
-      "url": "Unavailable from free public snapshot"
+      "url": "https://api.dexscreener.com/orders/v1/solana/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
     }
   ],
-  "timestamp": "2026-04-23T21:37:15Z",
+  "timestamp": "2026-04-23T21:56:23Z",
   "token_address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
 }
