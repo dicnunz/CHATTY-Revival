@@ -12,8 +12,11 @@ Completed on 2026-04-23.
 
 ## Snapshot Fallback Fix
 
-- Status: completed locally; redeploy pending.
-- Fix commit hash: pending until commit is created.
+- Status: completed and redeployed.
+- Fix commit hash: `fca342342ba7798d6a782906fc457c0aac966fcd`
+- GitHub Pages redeploy: succeeded.
+- Redeploy run: https://github.com/dicnunz/CHATTY-Revival/actions/runs/24857708847
+- Public site URL: https://dicnunz.github.io/CHATTY-Revival/
 - Homepage and Current State now include static HTML fallback text for every `data-field`.
 - JavaScript now renders `Unavailable from free public snapshot` for missing, null, empty, unavailable, or invalid metric values.
 - Timestamp fallback is `Snapshot unavailable`.
