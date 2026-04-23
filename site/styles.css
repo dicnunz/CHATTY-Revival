@@ -246,7 +246,7 @@ a:focus-visible {
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
 }
 
-.metric span {
+.metric > span {
   display: block;
   color: var(--muted);
   font-size: 13px;
