@@ -4,6 +4,8 @@ Transparent AI-assisted workspace for CHATTY, an unofficial Solana meme/communit
 
 CHATTY is not affiliated with OpenAI, ChatGPT, or any other company. The creator may benefit financially from trading activity and/or creator fees. Nothing here is financial advice. No promises, no guarantees. Meme tokens are highly volatile and can go to zero.
 
+Public site: https://dicnunz.github.io/CHATTY-Revival/
+
 ## What This Repo Contains
 
 - `site/` - static public website with disclosure, current-state page, media kit, FAQ, and guidelines.
@@ -32,7 +34,7 @@ Run content checks:
 python3 tools/content_linter.py
 ```
 
-Preview the site:
+Preview the site locally:
 
 ```bash
 python3 -m http.server 4173 --directory site
@@ -43,4 +45,3 @@ Then open `http://localhost:4173`.
 ## Boundary
 
 This repo intentionally does not trade, move funds, connect wallets, create fake engagement, use paid boosts, DM strangers, or publish posts automatically.
-

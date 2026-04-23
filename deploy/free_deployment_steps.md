@@ -4,12 +4,12 @@ No paid hosting, paid domains, payment cards, or wallet connections are needed.
 
 ## GitHub Pages
 
-1. Review `DISCLAIMER.md`, `site/disclosure.html`, and `content/x_drafts_week_1.md`.
-2. Create a GitHub repository manually if desired.
-3. Push this repo.
-4. In GitHub repo settings, enable Pages.
-5. Set Pages source to the `main` branch and `/site` folder.
-6. After publish, replace `[website link pending]` in Telegram/content drafts with the GitHub Pages URL.
+This repo includes `.github/workflows/deploy-pages.yml`, which publishes the static `site/` directory through GitHub Actions Pages.
+
+1. Push the repo to GitHub.
+2. Enable GitHub Pages with build type `workflow`.
+3. Run the `Deploy GitHub Pages` workflow if the push did not trigger it automatically.
+4. Confirm the public URL loads.
 
 ## Cloudflare Pages Free Tier
 
@@ -34,5 +34,4 @@ python3 tools/content_linter.py
 python3 -m http.server 4173 --directory site
 ```
 
-Review `http://localhost:4173` manually before sharing.
-
+Open `http://localhost:4173` before sharing if doing a manual launch.

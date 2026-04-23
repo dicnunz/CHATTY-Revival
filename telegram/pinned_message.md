@@ -10,7 +10,7 @@ Contract / mint:
 
 Website:
 
-`[website link pending]`
+https://dicnunz.github.io/CHATTY-Revival/
 
 Disclosure: The creator may benefit financially from trading activity and/or creator fees. This is not financial advice. No promises, no guarantees. Meme tokens are highly volatile and can go to zero. Do your own research.
 
@@ -23,4 +23,3 @@ Rules:
 - No impersonation.
 - No group trading plans.
 - Report scam links and anyone asking for seed phrases, private keys, wallet connections, payments, or private messages.
-

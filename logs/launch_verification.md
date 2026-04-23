@@ -2,6 +2,8 @@
 
 Date: 2026-04-23
 
+Expected public site URL for launch: `https://dicnunz.github.io/CHATTY-Revival/`
+
 ## Safety Review
 
 - Reviewed `FINAL_REPORT.md`, `logs/verification.md`, core site pages, Telegram pinned message, X drafts, content linter, and free deployment steps.
@@ -31,4 +33,3 @@ Additional browser verification used bundled Playwright from the local Codex run
 - Telegram pinned message included disclosure, no-affiliation language, no-financial-advice language, no-promises language, and can-go-to-zero risk language.
 - X post drafts passed `tools/content_linter.py`.
 - No wallet, payment method, private key, seed phrase, API secret, paid service, public post, DM, or transaction was involved in verification.
-

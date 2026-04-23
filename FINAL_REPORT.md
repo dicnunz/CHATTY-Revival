@@ -5,6 +5,7 @@ Completed on 2026-04-23.
 ## What I Built
 
 - Local repo: `CHATTY-Revival`.
+- Public site: `https://dicnunz.github.io/CHATTY-Revival/`
 - Static public site in `site/` with Home, Disclosure, Current State, Transparency Log, Media Kit, FAQ, and Community Guidelines.
 - Original local SVG mascot/media assets in `assets/` and `site/assets/`.
 - Read-only public data workflow in `dashboard/`.
@@ -75,5 +76,4 @@ Snapshot timestamp: `2026-04-23T19:57:39Z`
 - Local browser checks passed for site load, above-fold disclosure/risk banner, JSON metrics, FAQ language, unavailable-field handling, and contract copy button.
 - Screenshots saved in `output/playwright/`.
 
-Recommended next human action: review `site/disclosure.html`, preview `http://localhost:4173`, then publish the site/repo if the disclosure looks right.
-
+Recommended next human action: review the launched site and manually approve any future public posts beyond the initial launch post.
