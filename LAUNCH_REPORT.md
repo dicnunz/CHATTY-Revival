@@ -24,12 +24,16 @@ Completed on 2026-04-23.
 
 ## Generated Media Kit Refresh
 
-- Status: completed locally; redeploy pending.
+- Status: completed and redeployed.
+- Fix commit hash: `9337518f968b20f680237c32b5365b5d81d99ed1`
+- GitHub Pages redeploy: succeeded.
+- Redeploy run: https://github.com/dicnunz/CHATTY-Revival/actions/runs/24858739500
 - Replaced downloadable Media Kit SVG references with generated/composited PNG assets inspired by the rounded mint robot reference.
 - Updated homepage mascot image to the generated PNG.
 - Square and wide promo downloads include exact disclosure/risk text rendered by code, not AI-generated text.
 - Generated/composited assets contain no logos, no OpenAI/ChatGPT branding, and no financial hype.
 - Disclosure/risk language remains on the Media Kit page.
+- Live Media Kit now links only the three PNG downloads: `chatty-mascot-ai.png`, `chatty-share-card.png`, and `chatty-wide-banner.png`.
 - Public posting on X/Telegram was not performed.
 
 ## Telegram
