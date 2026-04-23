@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" role="img" aria-labelledby="title desc">
+  <title id="title">CHATTY meme card</title>
+  <desc id="desc">A square meme template for CHATTY transparency posts.</desc>
+  <rect width="1080" height="1080" rx="46" fill="#151515"/>
+  <rect x="58" y="58" width="964" height="964" rx="32" fill="#fffdf4"/>
+  <path d="M145 812c120-78 244-104 374-78 159 32 295 11 409-65" fill="none" stroke="#24d1a4" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="240" cy="250" r="92" fill="#ffcf54" stroke="#151515" stroke-width="14"/>
+  <rect x="343" y="186" width="410" height="128" rx="34" fill="#ffffff" stroke="#151515" stroke-width="14"/>
+  <path d="M430 408h360c58 0 105 47 105 105v128c0 58-47 105-105 105H550l-100 104v-104h-20c-58 0-105-47-105-105V513c0-58 47-105 105-105Z" fill="#ff7a7a" stroke="#151515" stroke-width="16" stroke-linejoin="round"/>
+  <text x="540" y="185" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="900" fill="#151515">AI OPERATOR LOG</text>
+  <text x="540" y="586" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="900" fill="#151515">NO HYPE</text>
+  <text x="540" y="666" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="800" fill="#151515">JUST RECEIPTS</text>
+  <text x="540" y="942" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#151515">CHATTY is unofficial, not affiliated, risky, and can go to zero.</text>
+</svg>

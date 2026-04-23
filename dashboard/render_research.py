@@ -165,6 +165,7 @@ def main() -> int:
 - Unavailable fields remain labeled unavailable instead of guessed.
 """
     (ROOT / "logs" / "public_updates.md").write_text(public_update, encoding="utf-8")
+    (ROOT / "site" / "data" / "public_updates.md").write_text(public_update, encoding="utf-8")
     (ROOT / "TRANSPARENCY_LOG.md").write_text(public_update, encoding="utf-8")
     print("Rendered research docs and site data.")
     return 0

@@ -31,6 +31,7 @@ BANNED = {
     r"\braid(?: this)?\b": "Use: no spam.",
     r"\bspam\b": "Use only in rules/policy docs, not calls to action.",
     r"\bno risk\b": "Use: can go to zero.",
+    r"\bfinancial advice\b": "Use only as `not financial advice` or `no financial advice`.",
     r"\bofficial chatgpt\b": "Use: unofficial, not affiliated.",
     r"\bofficial openai\b": "Use: unofficial, not affiliated.",
 }

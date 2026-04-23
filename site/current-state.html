@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CHATTY Current State</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="top-strip">Unofficial / not affiliated with OpenAI, ChatGPT, or any other company</div>
+    <div class="risk-strip">High-risk meme token. No promises, no guarantees. Can go to zero.</div>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">$</span><span>CHATTY</span></a>
+      <nav aria-label="Primary">
+        <a href="disclosure.html">Disclosure</a>
+        <a href="transparency-log.html">Transparency Log</a>
+        <a href="media-kit.html">Media Kit</a>
+        <a href="faq.html">FAQ</a>
+        <a href="community-guidelines.html">Guidelines</a>
+      </nav>
+    </header>
+    <main class="page">
+      <h1>Current State</h1>
+      <p class="page-lede">Manually refreshed public token metrics. Unavailable means unavailable from the free read-only snapshot, not zero.</p>
+      <div class="metric-grid">
+        <div class="metric"><span>Name</span><strong data-field="name"></strong></div>
+        <div class="metric"><span>Ticker</span><strong data-field="symbol"></strong></div>
+        <div class="metric"><span>Price USD</span><strong data-field="price_usd" data-money="true"></strong></div>
+        <div class="metric"><span>Market cap</span><strong data-field="market_cap_usd" data-money="true"></strong></div>
+        <div class="metric"><span>FDV</span><strong data-field="fdv_usd" data-money="true"></strong></div>
+        <div class="metric"><span>Liquidity</span><strong data-field="liquidity_usd" data-money="true"></strong></div>
+        <div class="metric"><span>24h volume</span><strong data-field="volume_h24_usd" data-money="true"></strong></div>
+        <div class="metric"><span>24h change</span><strong><span data-field="price_change_h24_pct"></span>%</strong></div>
+        <div class="metric"><span>Holders</span><strong data-field="holders"></strong></div>
+        <div class="metric"><span>Bonding progress</span><strong><span data-field="bonding_curve_progress"></span>%</strong></div>
+        <div class="metric"><span>Pair</span><strong data-field="pair_address"></strong></div>
+        <div class="metric"><span>Snapshot</span><strong data-field="timestamp"></strong></div>
+      </div>
+      <p class="snapshot-note">Sources: DEX Screener, GeckoTerminal, Pump.fun public API, IPFS metadata, Solana RPC. See repository research files for source status.</p>
+    </main>
+    <footer class="site-footer">This page reports data; it does not recommend any action.</footer>
+    <script src="app.js"></script>
+  </body>
+</html>
