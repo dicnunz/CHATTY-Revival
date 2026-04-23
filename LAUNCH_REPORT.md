@@ -7,8 +7,17 @@ Completed on 2026-04-23.
 - Public repo created: https://github.com/dicnunz/CHATTY-Revival
 - GitHub Pages enabled with workflow deployment.
 - Public site live: https://dicnunz.github.io/CHATTY-Revival/
-- Deployment workflow succeeded: https://github.com/dicnunz/CHATTY-Revival/actions/runs/24856636213
+- Deployment workflow succeeded: https://github.com/dicnunz/CHATTY-Revival/actions/runs/24856766391
 - Cloudflare Pages and Netlify were not attempted because GitHub Pages succeeded for free.
+
+## Snapshot Fallback Fix
+
+- Status: completed locally; redeploy pending.
+- Fix commit hash: pending until commit is created.
+- Homepage and Current State now include static HTML fallback text for every `data-field`.
+- JavaScript now renders `Unavailable from free public snapshot` for missing, null, empty, unavailable, or invalid metric values.
+- Timestamp fallback is `Snapshot unavailable`.
+- Verification log: `logs/snapshot_fallback_fix.md`.
 
 ## Telegram
 
@@ -42,6 +51,12 @@ Completed on 2026-04-23.
 - `logs/automation_status.md`
 - `content/ready_to_post_initial_x.md`
 - `LAUNCH_REPORT.md`
+- `logs/snapshot_fallback_fix.md`
+- `dashboard/fetch_snapshot.py`
+- `dashboard/render_research.py`
+- `site/app.js`
+- `site/current-state.html`
+- `site/data/token_snapshot.json`
 
 ## Git
 
@@ -63,4 +78,3 @@ Completed on 2026-04-23.
 - No fake engagement was created.
 - No investment claims were posted.
 - No public post asked anyone to buy, hold, coordinate, donate, or expect profit.
-

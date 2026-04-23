@@ -106,7 +106,7 @@ def normalize(snapshot: dict[str, Any]) -> dict[str, Any]:
         "txns_h24": ((ds_pair or {}).get("txns") or {}).get("h24"),
         "price_change_h24_pct": ((ds_pair or {}).get("priceChange") or {}).get("h24")
         or gecko_pool.get("price_change_percentage", {}).get("h24"),
-        "holders": "unavailable from free API snapshot",
+        "holders": "Unavailable from free public snapshot",
         "bonding_curve_progress": gecko_token.get("launchpad_details", {}).get("graduation_percentage"),
         "bonding_curve_complete": pump.get("complete") if pump else gecko_token.get("launchpad_details", {}).get("completed"),
         "pair_url": (ds_pair or {}).get("url"),
@@ -122,7 +122,7 @@ def normalize(snapshot: dict[str, Any]) -> dict[str, Any]:
         "notes": [
             "Read-only public data snapshot.",
             "Market data changes quickly; this is not a recommendation.",
-            "Holder count is shown as unavailable unless manually verified from a public page.",
+            "Holder count is shown as unavailable from the free public snapshot unless manually verified from a public page.",
         ],
     }
     snapshot["current"] = current

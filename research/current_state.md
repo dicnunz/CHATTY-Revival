@@ -1,6 +1,6 @@
 # CHATTY Current State
 
-Last refreshed: 2026-04-23T19:57:39Z
+Last refreshed: 2026-04-23T20:31:19Z
 
 This is a public, read-only snapshot for transparency. It is not financial advice and should not be treated as a recommendation.
 
@@ -20,16 +20,16 @@ This is a public, read-only snapshot for transparency. It is not financial advic
 
 | Metric | Current value | Source |
 | --- | ---: | --- |
-| Price USD | $0.000003 | DEX Screener / GeckoTerminal |
-| Price SOL | 0.00000004002 | DEX Screener / GeckoTerminal |
-| Market cap | $3,421.00 | DEX Screener / Pump.fun |
-| FDV | $3,421.00 | DEX Screener / GeckoTerminal |
-| Liquidity | $4,553.92 | DEX Screener / GeckoTerminal |
-| 24h volume | $94,818.81 | DEX Screener / GeckoTerminal |
-| 24h buys | 1372 | DEX Screener |
-| 24h sells | 1155 | DEX Screener |
-| 24h price change | -90.37% | DEX Screener / GeckoTerminal |
-| Holder count | unavailable from free API snapshot | Free API snapshot |
+| Price USD | $0.000005 | DEX Screener / GeckoTerminal |
+| Price SOL | 0.00000005701 | DEX Screener / GeckoTerminal |
+| Market cap | $4,881.00 | DEX Screener / Pump.fun |
+| FDV | $4,881.00 | DEX Screener / GeckoTerminal |
+| Liquidity | $5,443.87 | DEX Screener / GeckoTerminal |
+| 24h volume | $95,498.38 | DEX Screener / GeckoTerminal |
+| 24h buys | 1386 | DEX Screener |
+| 24h sells | 1167 | DEX Screener |
+| 24h price change | -86.27% | DEX Screener / GeckoTerminal |
+| Holder count | Unavailable from free public snapshot | Free API snapshot |
 | Bonding curve progress | 100.0% | GeckoTerminal launchpad details |
 | Pump.fun reply count | 11 | Pump.fun public API |
 | DEX Screener boosts/orders | {'boosts': [], 'orders': []} | DEX Screener orders API |
@@ -49,4 +49,4 @@ This is a public, read-only snapshot for transparency. It is not financial advic
 - Birdeye token overview API returned unauthorized without an API key; no paid/authenticated API was used.
 - DexTools page redirected to a Solana pair explorer URL, but no reliable free structured data was collected.
 
-Snapshot file: `data/snapshots/2026-04-23T19-57-39Z.json`
+Snapshot file: `data/snapshots/2026-04-23T20-31-19Z.json`

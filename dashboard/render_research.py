@@ -21,7 +21,7 @@ def latest_snapshot() -> tuple[Path, dict[str, Any]]:
 
 
 def money(value: Any) -> str:
-    if value in (None, "", "unavailable from free API snapshot"):
+    if value in (None, "") or (isinstance(value, str) and "unavailable" in value.lower()):
         return "unavailable"
     try:
         return f"${float(value):,.6f}" if float(value) < 1 else f"${float(value):,.2f}"
