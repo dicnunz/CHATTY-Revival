@@ -38,15 +38,16 @@ Completed on 2026-04-23.
 
 ## Telegram
 
-- Telegram was open/logged in and the `chatty` group was visible.
-- The prepared pinned message was updated with the public site URL.
-- The message was not sent or pinned because public group posting/pinning requires action-time confirmation.
+- Telegram pinned message completed manually by the human after action-time confirmation.
+- The pinned message used the prepared CHATTY disclosure/rules language and public site URL.
+- No additional Telegram posting, replies, DMs, invite creation, or pinning was performed by Codex.
+- No safe public Telegram link was visible from the current session, so the site remains `Telegram: chatty link pending`.
 
 ## X
 
-- No X post was published.
-- A compliant 280-character initial post was saved to `content/ready_to_post_initial_x.md`.
-- Public X posting requires action-time confirmation.
+- Initial X transparency post completed manually by the human from `@nicdunz` after action-time confirmation.
+- Codex did not post, reply, DM, promote, tag campaigns, or create engagement.
+- X post URL was not available from the current browser/session and was not found by exact public search at update time, so no X post URL was added.
 
 ## Automations
 
@@ -82,8 +83,8 @@ Completed on 2026-04-23.
 
 ## Blocked Items
 
-- Telegram send/pin: blocked by action-time confirmation requirement for public representational communication.
-- X post: blocked by action-time confirmation requirement for public representational communication.
+- Telegram and X initial launch actions are no longer blocked; both were completed manually by the human after action-time confirmation.
+- Future Telegram or X actions still require human action-time confirmation.
 - No login, payment, credentials, wallet, or identity-verification blocker remained for GitHub Pages.
 
 ## Safety Confirmation

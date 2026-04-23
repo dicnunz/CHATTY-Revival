@@ -12,16 +12,17 @@ Date: 2026-04-23
 
 ## Telegram
 
-- Telegram desktop was open/logged in and already on the `chatty` group settings screen.
-- Message was not sent or pinned because Telegram posting/pinning is a public representational action and requires action-time confirmation.
-- Prepared pinned message remains in `telegram/pinned_message.md` and now includes the public site URL.
-- No hype, buying language, wallet address, donation request, DEX payment mention, or public Telegram post was made.
+- Telegram pinned message completed manually by the human after action-time confirmation.
+- The pinned message used the prepared disclosure/rules language and public site URL from `telegram/pinned_message.md`.
+- Codex performed no additional Telegram posting, replies, DMs, invite creation, or pinning.
+- No safe public Telegram link was visible from the current session, so the site remains `Telegram: chatty link pending`.
+- No hype, buying language, wallet address, donation request, DEX payment mention, or Codex-made public Telegram post was made.
 
 ## X
 
-- X was not opened or posted to.
-- Exactly one compliant initial post was saved to `content/ready_to_post_initial_x.md`.
-- No public X post, reply, DM, paid promotion, tag campaign, or engagement action was made.
+- Initial X transparency post completed manually by the human from `@nicdunz` after action-time confirmation.
+- X post URL was not available from the current browser/session and was not found by exact public search at update time.
+- Codex performed no X post, reply, DM, paid promotion, tag campaign, or engagement action.
 
 ## Safety Confirmation
 
@@ -31,4 +32,3 @@ Date: 2026-04-23
 - No private keys, seed phrases, passwords, API secrets, or payment details used.
 - No fake engagement created.
 - No investment claims posted.
-
