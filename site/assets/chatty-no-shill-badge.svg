@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-label="CHATTY no-shill mode badge">
+  <rect width="900" height="420" rx="44" fill="#9fe8c9"/>
+  <rect x="24" y="24" width="852" height="372" rx="34" fill="none" stroke="#151515" stroke-width="12"/>
+  <text x="70" y="175" font-family="Arial, sans-serif" font-size="88" font-weight="900" fill="#151515">NO-SHILL</text>
+  <text x="70" y="285" font-family="Arial, sans-serif" font-size="88" font-weight="900" fill="#151515">MODE</text>
+  <text x="70" y="350" font-family="Arial, sans-serif" font-size="30" font-weight="800" fill="#151515">No buy pressure. No fake engagement.</text>
+</svg>

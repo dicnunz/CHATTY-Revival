@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="260" viewBox="0 0 1400 260" role="img" aria-label="CHATTY disclosure footer overlay">
+  <rect width="1400" height="260" rx="28" fill="#fffdf4"/>
+  <rect x="18" y="18" width="1364" height="224" rx="22" fill="none" stroke="#151515" stroke-width="10"/>
+  <text x="54" y="82" font-family="Arial, sans-serif" font-size="42" font-weight="900" fill="#151515">CHATTY disclosure footer</text>
+  <text x="54" y="142" font-family="Arial, sans-serif" font-size="33" font-weight="800" fill="#151515">Creator may benefit. Unofficial, not affiliated with OpenAI/ChatGPT.</text>
+  <text x="54" y="195" font-family="Arial, sans-serif" font-size="33" font-weight="800" fill="#151515">Not financial advice. No promises. Can go to zero.</text>
+</svg>

@@ -128,6 +128,7 @@ main {
 .tag-row,
 .link-grid,
 .metric-grid,
+.trust-grid,
 .asset-grid {
   display: grid;
   gap: 14px;
@@ -144,6 +145,40 @@ main {
   background: var(--panel);
   padding: 14px;
   font-weight: 850;
+}
+
+.status-list {
+  display: grid;
+  gap: 10px;
+  margin: 22px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.status-list li {
+  border: 3px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  padding: 12px 14px;
+  font-weight: 850;
+}
+
+.status-list li::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  border-radius: 999px;
+  background: var(--teal);
+}
+
+.status-list .warn::before {
+  background: var(--yellow);
+}
+
+.status-list .stop::before {
+  background: var(--coral);
 }
 
 .contract-box {
@@ -246,6 +281,29 @@ a:focus-visible {
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
 }
 
+.trust-grid {
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  margin-top: 22px;
+}
+
+.trust-card {
+  border: 3px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  padding: 18px;
+}
+
+.trust-card h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+}
+
+.trust-card p {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 720;
+}
+
 .metric > span {
   display: block;
   color: var(--muted);
@@ -294,6 +352,45 @@ a:focus-visible {
   margin-top: 18px;
   color: var(--muted);
   font-weight: 700;
+}
+
+.small-note {
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 720;
+}
+
+.chart-box {
+  border: 3px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  padding: 18px;
+  overflow-x: auto;
+}
+
+.chart-box svg {
+  display: block;
+  width: 100%;
+  min-width: 620px;
+  height: auto;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 18px 0;
+}
+
+.data-table th,
+.data-table td {
+  border: 2px solid var(--line);
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.data-table th {
+  background: var(--soft);
 }
 
 .log-output {

@@ -6,9 +6,9 @@ Nobody here should tell you whether to buy. Read the disclosure, verify the mint
 
 ## "Wen moon?"
 
-No price promises here. The community can do memes, public source notes, and transparency updates. Nothing is guaranteed.
+No price promises here. The community can do memes, public source notes, and transparency updates. No outcome is promised.
 
-## "Is this official ChatGPT?"
+## "Is this affiliated with ChatGPT?"
 
 No. CHATTY is unofficial and not affiliated with OpenAI, ChatGPT, or any other company.
 
@@ -23,4 +23,3 @@ No paid DEX/social service is approved right now. Any request for funds needs a 
 ## Scam Link
 
 Do not click or connect a wallet. CHATTY will never ask for seed phrases, private keys, urgent wallet connections, or private payments in DMs.
-

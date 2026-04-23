@@ -1,0 +1,33 @@
+name: Content and Risk Checks
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "45 14 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Content linter
+        run: |
+          python3 tools/content_linter.py \
+            content/x_drafts_week_1.md \
+            content/x_reply_bank.md \
+            content/autopilot_content_library.md \
+            content/day_2_transparency_update_draft.md \
+            telegram/pinned_message.md \
+            telegram/dormant_mode_pinned_update.md
+      - name: Risk monitor
+        run: python3 tools/risk_monitor.py

@@ -1,0 +1,34 @@
+name: Weekly Transparency Report
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 15 * * 0"
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build weekly report
+        run: |
+          python3 tools/weekly_transparency_report.py
+          python3 tools/build_autopilot_data.py
+          python3 tools/risk_monitor.py
+      - name: Commit safe report
+        run: |
+          if git diff --quiet; then
+            echo "No report changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add logs/weekly_transparency_report.md site/data/weekly_transparency_report.md site/data/autopilot_status.json site/data/final_autopilot_status.json logs/risk_alerts.md
+          git commit -m "Autopilot weekly transparency report"
+          git push

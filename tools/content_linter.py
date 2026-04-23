@@ -44,6 +44,10 @@ ALLOWED_CONTEXTS = [
     "anti-spam",
     "no-pump",
     "pump coordination",
+    "no coordinated pumping",
+    "coordinated pumps",
+    "coordinated promotion",
+    "coordinated buying",
 ]
 
 DISCLOSURE_PATTERNS = [

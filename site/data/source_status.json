@@ -1,0 +1,102 @@
+{
+  "confidence_labels": [
+    "verified",
+    "unavailable",
+    "blocked",
+    "manual",
+    "stale"
+  ],
+  "note": "Unavailable means unavailable from the free read-only snapshot, not zero.",
+  "source_status": [
+    {
+      "confidence": "verified",
+      "error": "",
+      "key": "dexscreener_orders",
+      "label": "DEX Screener orders API",
+      "ok": true,
+      "url": "https://api.dexscreener.com/orders/v1/solana/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
+    },
+    {
+      "confidence": "verified",
+      "error": "",
+      "key": "dexscreener_token",
+      "label": "DEX Screener token API",
+      "ok": true,
+      "url": "https://api.dexscreener.com/latest/dex/tokens/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
+    },
+    {
+      "confidence": "verified",
+      "error": "",
+      "key": "geckoterminal_pool",
+      "label": "GeckoTerminal pool API",
+      "ok": true,
+      "url": "https://api.geckoterminal.com/api/v2/networks/solana/pools/CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh"
+    },
+    {
+      "confidence": "verified",
+      "error": "",
+      "key": "geckoterminal_token",
+      "label": "GeckoTerminal token API",
+      "ok": true,
+      "url": "https://api.geckoterminal.com/api/v2/networks/solana/tokens/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
+    },
+    {
+      "confidence": "verified",
+      "error": "",
+      "key": "ipfs_metadata",
+      "label": "IPFS metadata",
+      "ok": true,
+      "url": "https://ipfs.io/ipfs/QmekS6wTZeDUUTTKbGAPQDVELd2y8Y2xCqvfcnYhMAxDqH"
+    },
+    {
+      "confidence": "verified",
+      "error": "",
+      "key": "pumpfun_coin",
+      "label": "Pump.fun coin API",
+      "ok": true,
+      "url": "https://frontend-api-v3.pump.fun/coins/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
+    },
+    {
+      "confidence": "verified",
+      "error": "",
+      "key": "solana_account_info",
+      "label": "solana_rpc:getAccountInfo",
+      "ok": true,
+      "url": "https://api.mainnet-beta.solana.com"
+    },
+    {
+      "confidence": "unavailable",
+      "error": "HTTP Error 429: Too Many Requests",
+      "key": "solana_largest_accounts",
+      "label": "solana_rpc:getTokenLargestAccounts",
+      "ok": false,
+      "url": "https://api.mainnet-beta.solana.com"
+    },
+    {
+      "confidence": "verified",
+      "error": "",
+      "key": "solana_token_supply",
+      "label": "solana_rpc:getTokenSupply",
+      "ok": true,
+      "url": "https://api.mainnet-beta.solana.com"
+    },
+    {
+      "confidence": "unavailable",
+      "error": "URL was not available from the browser/session or exact public search.",
+      "key": "x_post_url",
+      "label": "Initial X transparency post URL",
+      "ok": false,
+      "url": "Unavailable from free public snapshot"
+    },
+    {
+      "confidence": "manual",
+      "error": "No intentionally public Telegram link is known.",
+      "key": "telegram_public_link",
+      "label": "Telegram public link",
+      "ok": false,
+      "url": "Unavailable from free public snapshot"
+    }
+  ],
+  "timestamp": "2026-04-23T21:37:15Z",
+  "token_address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
+}

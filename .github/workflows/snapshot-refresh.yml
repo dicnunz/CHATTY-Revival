@@ -1,0 +1,36 @@
+name: Safe Snapshot Refresh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 13 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Read-only public snapshot
+        run: python3 dashboard/fetch_snapshot.py
+      - name: Render static public data
+        run: |
+          python3 dashboard/render_research.py
+          python3 tools/build_autopilot_data.py
+          python3 tools/risk_monitor.py
+      - name: Commit safe updates
+        run: |
+          if git diff --quiet; then
+            echo "No snapshot changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/snapshots research site/data logs/public_updates.md TRANSPARENCY_LOG.md logs/risk_alerts.md
+          git commit -m "Autopilot snapshot refresh"
+          git push

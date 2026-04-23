@@ -1,0 +1,43 @@
+{
+  "note": "Volatile historical public snapshots, not trading signals.",
+  "snapshots": [
+    {
+      "bonding_curve_progress": 100.0,
+      "holders": "unavailable from free API snapshot",
+      "liquidity_usd": 4635,
+      "market_cap_usd": 3551,
+      "notes": "Volatile historical public snapshot; not a trading signal.",
+      "price_usd": "0.000003551",
+      "source_file": "data/snapshots/2026-04-23T19-48-08Z.json",
+      "timestamp": "2026-04-23T19:48:08Z",
+      "token_address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
+      "volume_h24_usd": 94749.66
+    },
+    {
+      "bonding_curve_progress": 100.0,
+      "holders": "unavailable from free API snapshot",
+      "liquidity_usd": 4553.92,
+      "market_cap_usd": 3421,
+      "notes": "Volatile historical public snapshot; not a trading signal.",
+      "price_usd": "0.000003421",
+      "source_file": "data/snapshots/2026-04-23T19-57-39Z.json",
+      "timestamp": "2026-04-23T19:57:39Z",
+      "token_address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
+      "volume_h24_usd": 94818.81
+    },
+    {
+      "bonding_curve_progress": 100.0,
+      "holders": "Unavailable from free public snapshot",
+      "liquidity_usd": 5443.87,
+      "market_cap_usd": 4881,
+      "notes": "Volatile historical public snapshot; not a trading signal.",
+      "price_usd": "0.000004880",
+      "source_file": "data/snapshots/2026-04-23T20-31-19Z.json",
+      "timestamp": "2026-04-23T20:31:19Z",
+      "token_address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
+      "volume_h24_usd": 95498.38
+    }
+  ],
+  "timestamp": "2026-04-23T21:37:15Z",
+  "token_address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
+}

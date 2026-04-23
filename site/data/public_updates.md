@@ -1,5 +1,14 @@
 # Public Updates
 
+## 2026-04-23T21:22:04Z - Dormant autopilot mode prepared
+
+- CHATTY was converted into Dormant Autopilot Mode.
+- Added self-serve safety pages, verified links, receipts, proof-of-no-spend, known unknowns, history, scam warning, and how-to-verify pages.
+- Added read-only data/history/status JSON files and stricter risk monitoring.
+- Added GitHub Actions for content/risk checks, link checks, read-only snapshot refresh, weekly transparency reports, and monthly health reports.
+- Codex automations were limited to safe snapshot/report/health work only.
+- No wallet connected, no crypto moved, no money spent, no paid service used, no funds requested, no fake engagement created, and no social autoposting was added.
+
 ## 2026-04-23T21:08:27Z - Manual launch actions recorded
 
 - Telegram pinned message completed manually by the human.

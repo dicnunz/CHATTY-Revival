@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CHATTY history",
+  "type": "object",
+  "required": ["timestamp", "token_address", "snapshots"],
+  "properties": {
+    "timestamp": { "type": "string" },
+    "token_address": { "const": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump" },
+    "note": { "type": "string" },
+    "snapshots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["timestamp", "token_address", "source_file"],
+        "properties": {
+          "timestamp": { "type": "string" },
+          "token_address": { "const": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump" },
+          "source_file": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

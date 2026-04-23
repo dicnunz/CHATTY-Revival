@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CHATTY token snapshot",
+  "type": "object",
+  "required": ["timestamp", "token_address", "price_usd", "market_cap_usd", "liquidity_usd", "volume_h24_usd", "holders"],
+  "properties": {
+    "timestamp": { "type": "string" },
+    "token_address": { "const": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump" },
+    "price_usd": {},
+    "market_cap_usd": {},
+    "liquidity_usd": {},
+    "volume_h24_usd": {},
+    "holders": {},
+    "pair_url": { "type": "string" },
+    "solscan_url": { "type": "string" },
+    "pumpfun_url": { "type": "string" }
+  },
+  "additionalProperties": true
+}

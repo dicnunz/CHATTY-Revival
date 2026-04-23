@@ -10,6 +10,11 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 SNAPSHOTS = ROOT / "data" / "snapshots"
+PUBLIC_UPDATE_FILES = [
+    ROOT / "logs" / "public_updates.md",
+    ROOT / "site" / "data" / "public_updates.md",
+    ROOT / "TRANSPARENCY_LOG.md",
+]
 
 
 def latest_snapshot() -> tuple[Path, dict[str, Any]]:
@@ -141,6 +146,17 @@ Last refreshed: {snapshot["timestamp"]}
 """
 
 
+def merge_public_update(new_entry: str, existing: str) -> str:
+    """Prepend a new update without deleting earlier manual/public history."""
+    header = "# Public Updates\n\n"
+    body = existing
+    if body.startswith(header):
+        body = body[len(header):]
+    if new_entry.strip() in body:
+        return header + body.strip() + "\n"
+    return header + new_entry.strip() + "\n\n" + body.strip() + "\n"
+
+
 def main() -> int:
     path, snapshot = latest_snapshot()
     current = snapshot["current"]
@@ -155,18 +171,16 @@ def main() -> int:
     (ROOT / "site" / "data" / "token_snapshot.json").write_text(
         json.dumps(current, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )
-    public_update = f"""# Public Updates
-
-## {snapshot["timestamp"]} - AI operator snapshot
+    public_entry = f"""## {snapshot["timestamp"]} - AI operator snapshot
 
 - Verified CHATTY mint as `{current["token_address"]}` from Pump.fun, DEX Screener, GeckoTerminal, IPFS metadata, and Solana RPC.
 - Refreshed public metrics into `site/data/token_snapshot.json`.
 - No wallet connected, no trades made, no paid services used, no public posts made.
 - Unavailable fields remain labeled unavailable instead of guessed.
 """
-    (ROOT / "logs" / "public_updates.md").write_text(public_update, encoding="utf-8")
-    (ROOT / "site" / "data" / "public_updates.md").write_text(public_update, encoding="utf-8")
-    (ROOT / "TRANSPARENCY_LOG.md").write_text(public_update, encoding="utf-8")
+    for path in PUBLIC_UPDATE_FILES:
+        existing = path.read_text(encoding="utf-8") if path.exists() else "# Public Updates\n"
+        path.write_text(merge_public_update(public_entry, existing), encoding="utf-8")
     print("Rendered research docs and site data.")
     return 0
 

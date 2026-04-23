@@ -1,0 +1,29 @@
+{
+  "autopilot_scope": [
+    "read-only public data snapshots",
+    "static site updates",
+    "risk/content checks",
+    "weekly transparency reports",
+    "link and health checks"
+  ],
+  "creator_x": "https://x.com/nicdunz",
+  "disclosure": "CHATTY is an unofficial meme/community token by @nicdunz. It is not affiliated with OpenAI, ChatGPT, or any other company. The creator may benefit financially from trading activity and/or creator fees. This is not financial advice. No promises, no guarantees. Meme tokens are highly volatile and can go to zero. Do your own research.",
+  "mode": "Dormant Autopilot Mode",
+  "name": "chatty",
+  "never_automated": [
+    "X posts",
+    "Telegram posts",
+    "DMs",
+    "wallet connections",
+    "trading",
+    "payments",
+    "fund requests",
+    "fake engagement"
+  ],
+  "pair_address": "CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh",
+  "repo_url": "https://github.com/dicnunz/CHATTY-Revival",
+  "site_url": "https://dicnunz.github.io/CHATTY-Revival/",
+  "telegram": "Unavailable from free public snapshot",
+  "ticker": "CHATTY",
+  "token_address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
+}

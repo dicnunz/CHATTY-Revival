@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CHATTY project manifest",
+  "type": "object",
+  "required": ["name", "ticker", "mode", "site_url", "repo_url", "token_address", "disclosure", "autopilot_scope", "never_automated"],
+  "properties": {
+    "name": { "const": "chatty" },
+    "ticker": { "const": "CHATTY" },
+    "mode": { "const": "Dormant Autopilot Mode" },
+    "site_url": { "type": "string" },
+    "repo_url": { "type": "string" },
+    "token_address": { "const": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump" },
+    "disclosure": { "type": "string" },
+    "autopilot_scope": { "type": "array", "items": { "type": "string" } },
+    "never_automated": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": true
+}
