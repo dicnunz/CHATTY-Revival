@@ -1,0 +1,41 @@
+{
+  "bonding_curve_complete": true,
+  "bonding_curve_progress": 100.0,
+  "decimals": 6,
+  "fdv_usd": 3551,
+  "geckoterminal_url": "https://www.geckoterminal.com/solana/pools/CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh",
+  "holders": "unavailable from free API snapshot",
+  "image_uri": "https://ipfs.io/ipfs/QmdTEScb1VktnUCAxXJv9QAs5fTwC1Wwb8yHaojeebHK1A",
+  "liquidity_usd": 4635,
+  "market_cap_usd": 3551,
+  "metadata_uri": "https://ipfs.io/ipfs/QmekS6wTZeDUUTTKbGAPQDVELd2y8Y2xCqvfcnYhMAxDqH",
+  "name": "chatty",
+  "notes": [
+    "Read-only public data snapshot.",
+    "Market data changes quickly; this is not a recommendation.",
+    "Holder count is shown as unavailable unless manually verified from a public page."
+  ],
+  "orders_or_boosts": {
+    "boosts": [],
+    "orders": []
+  },
+  "pair_address": "CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh",
+  "pair_url": "https://dexscreener.com/solana/cjazvo7knarsgqubnkmwfv5ukurxqzxt4c4raw1eybhh",
+  "price_change_h24_pct": -90.01,
+  "price_native_sol": "0.00000004163",
+  "price_usd": "0.000003551",
+  "pumpfun_url": "https://pump.fun/coin/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
+  "reply_count": 11,
+  "solscan_url": "https://solscan.io/token/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
+  "supply_ui": "999998858.150359",
+  "symbol": "CHATTY",
+  "timestamp": "2026-04-23T19:48:08Z",
+  "token_address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
+  "token_program": "spl-token-2022",
+  "twitter": "x.com/nicdunz",
+  "txns_h24": {
+    "buys": 1368,
+    "sells": 1151
+  },
+  "volume_h24_usd": 94749.66
+}
