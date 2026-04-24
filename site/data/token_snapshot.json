@@ -2,12 +2,12 @@
   "bonding_curve_complete": true,
   "bonding_curve_progress": 100.0,
   "decimals": 6,
-  "fdv_usd": 4881,
+  "fdv_usd": 4321,
   "geckoterminal_url": "https://www.geckoterminal.com/solana/pools/CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh",
   "holders": "Unavailable from free public snapshot",
   "image_uri": "https://ipfs.io/ipfs/QmdTEScb1VktnUCAxXJv9QAs5fTwC1Wwb8yHaojeebHK1A",
-  "liquidity_usd": 5443.87,
-  "market_cap_usd": 4881,
+  "liquidity_usd": 5203.28,
+  "market_cap_usd": 4321,
   "metadata_uri": "https://ipfs.io/ipfs/QmekS6wTZeDUUTTKbGAPQDVELd2y8Y2xCqvfcnYhMAxDqH",
   "name": "chatty",
   "notes": [
@@ -17,25 +17,33 @@
   ],
   "orders_or_boosts": {
     "boosts": [],
-    "orders": []
+    "orders": [
+      {
+        "chainId": "solana",
+        "paymentTimestamp": 1776979322461,
+        "status": "approved",
+        "tokenAddress": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
+        "type": "tokenProfile"
+      }
+    ]
   },
   "pair_address": "CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh",
   "pair_url": "https://dexscreener.com/solana/cjazvo7knarsgqubnkmwfv5ukurxqzxt4c4raw1eybhh",
-  "price_change_h24_pct": -86.27,
-  "price_native_sol": "0.00000005701",
-  "price_usd": "0.000004880",
+  "price_change_h24_pct": -87.84,
+  "price_native_sol": "0.00000005009",
+  "price_usd": "0.000004320",
   "pumpfun_url": "https://pump.fun/coin/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
   "reply_count": 11,
   "solscan_url": "https://solscan.io/token/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
-  "supply_ui": "999998858.150359",
+  "supply_ui": "999987046.599827",
   "symbol": "CHATTY",
-  "timestamp": "2026-04-23T20:31:19Z",
+  "timestamp": "2026-04-24T14:52:32Z",
   "token_address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
   "token_program": "spl-token-2022",
   "twitter": "x.com/nicdunz",
   "txns_h24": {
-    "buys": 1386,
-    "sells": 1167
+    "buys": 4080,
+    "sells": 2745
   },
-  "volume_h24_usd": 95498.38
+  "volume_h24_usd": 268941.13
 }
