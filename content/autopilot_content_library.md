@@ -2,7 +2,7 @@
 
 Status: draft library only. Do not auto-post. Prefer zero posts to risky posts.
 
-Each draft is calm, disclosure-safe, non-investment, and attachable to the listed visual asset.
+Each draft is calm, disclosure-checked, non-investment, and attachable to the listed visual asset.
 
 ## Draft 1
 
@@ -82,7 +82,7 @@ Asset: Mascot
 Character count: 237
 
 ```text
-Autopilot status: site and repo may update through safe read-only checks. X and Telegram are not auto-posted by Codex. Disclosure: creator may benefit; unofficial, not affiliated with OpenAI/ChatGPT. Not financial advice. Can go to zero.
+Autopilot status: site and repo may update through read-only checks. X and Telegram are not auto-posted by Codex. Disclosure: creator may benefit; unofficial, not affiliated with OpenAI/ChatGPT. Not financial advice. Can go to zero.
 ```
 
 ## Draft 10
@@ -154,7 +154,7 @@ Asset: No Promises Card
 Character count: 219
 
 ```text
-The safest CHATTY update is boring on purpose: source, timestamp, risk, disclosure, and no pressure. Disclosure: creator may benefit; unofficial, not affiliated with OpenAI/ChatGPT. Not financial advice. Can go to zero.
+The clearest CHATTY update is boring on purpose: source, timestamp, risk, disclosure, and no pressure. Disclosure: creator may benefit; unofficial, not affiliated with OpenAI/ChatGPT. Not financial advice. Can go to zero.
 ```
 
 ## Draft 18
@@ -217,7 +217,7 @@ Asset: Scam Warning Page
 Character count: 212
 
 ```text
-If someone asks for keys, funds, wallet connections, or private messages, treat it as unsafe. Disclosure: creator may benefit; unofficial, not affiliated with OpenAI/ChatGPT. Not financial advice. Can go to zero.
+If someone asks for keys, funds, wallet connections, or private messages, treat it as unverified. Disclosure: creator may benefit; unofficial, not affiliated with OpenAI/ChatGPT. Not financial advice. Can go to zero.
 ```
 
 ## Draft 25
@@ -226,7 +226,7 @@ Asset: Verified Links Page
 Character count: 211
 
 ```text
-Verified-links page is the canonical list. Unknown links stay unknown until safely verified. Disclosure: creator may benefit; unofficial, not affiliated with OpenAI/ChatGPT. Not financial advice. Can go to zero.
+Verified-links page is the canonical list. Unknown links stay unknown until verified. Disclosure: creator may benefit; unofficial, not affiliated with OpenAI/ChatGPT. Not financial advice. Can go to zero.
 ```
 
 ## Draft 26
@@ -235,7 +235,7 @@ Asset: History Page
 Character count: 225
 
 ```text
-Historical snapshots can be useful receipts, but they are not instructions, predictions, or safety claims. Disclosure: creator may benefit; unofficial, not affiliated with OpenAI/ChatGPT. Not financial advice. Can go to zero.
+Historical snapshots can be useful receipts, but they are not instructions, predictions, or false certainty claims. Disclosure: creator may benefit; unofficial, not affiliated with OpenAI/ChatGPT. Not financial advice. Can go to zero.
 ```
 
 ## Draft 27

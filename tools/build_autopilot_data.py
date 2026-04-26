@@ -20,7 +20,7 @@ PAIR_ADDRESS = "CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh"
 SITE_URL = "https://dicnunz.github.io/CHATTY-Revival/"
 REPO_URL = "https://github.com/dicnunz/CHATTY-Revival"
 CREATOR_X = "https://x.com/nicdunz"
-INITIAL_X_POST_URL = "https://x.com/nicdunz/status/2047417227528265963"
+INITIAL_X_POST_URL = "https://x.com/nicdunz/status/2048220099669110846"
 TELEGRAM_URL = "https://t.me/+7A8xRcI8IHM3MWIx"
 
 
@@ -94,7 +94,7 @@ def build_source_status(latest: dict[str, Any] | None) -> dict[str, Any]:
         [
             {
                 "key": "x_post_url",
-                "label": "Initial X transparency post URL",
+                "label": "Current X box-escape post URL",
                 "url": INITIAL_X_POST_URL,
                 "ok": True,
                 "confidence": "verified",
@@ -139,7 +139,7 @@ def build_manifest() -> dict[str, Any]:
     return {
         "name": "chatty",
         "ticker": "CHATTY",
-        "mode": "Dormant Autopilot Mode",
+        "mode": "Box-Escape Run",
         "site_url": SITE_URL,
         "repo_url": REPO_URL,
         "creator_x": CREATOR_X,
@@ -155,7 +155,7 @@ def build_manifest() -> dict[str, Any]:
         "creator_payment_to_dex_verified": False,
         "third_party_dex_payment_or_metadata_status": "unclear",
         "dex_boost_verified": False,
-        "dex_visibility_note": "DEX/profile/metadata visibility is not an endorsement, not a promise, and does not guarantee liquidity, safety, price movement, or future market cap.",
+        "dex_visibility_note": "DEX/profile/metadata visibility is not an endorsement, not a promise, and does not guarantee liquidity, price movement, or future market cap.",
         "autopilot_scope": [
             "read-only public data snapshots",
             "static site updates",
@@ -180,7 +180,7 @@ def build_autopilot_status(final: bool = False) -> dict[str, Any]:
     run_url = os.environ.get("GITHUB_RUN_ID", "")
     pages_run = f"https://github.com/dicnunz/CHATTY-Revival/actions/runs/{run_url}" if run_url else "Unavailable from local run"
     return {
-        "mode": "Dormant Autopilot Mode",
+        "mode": "Box-Escape Run",
         "timestamp": now_iso(),
         "commit": git_commit(),
         "pages_run": pages_run,

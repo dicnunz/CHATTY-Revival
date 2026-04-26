@@ -141,7 +141,7 @@ Last refreshed: {snapshot["timestamp"]}
 - Some metrics were unavailable from free unauthenticated sources. Unavailable data is not zero.
 - No wallet was connected and no transaction was made during this research.
 - DEX Screener reported no active orders or boosts in the public orders API response: `{plain(c.get("orders_or_boosts"))}`.
-- Solscan API access was blocked by Cloudflare/unauthenticated controls during this run; do not infer hidden safety from missing Solscan fields.
+- Solscan API access was blocked by Cloudflare/unauthenticated controls during this run; do not infer hidden certainty from missing Solscan fields.
 - Nothing in this repository should ask anyone to buy, hold, coordinate purchases, or expect profit.
 """
 

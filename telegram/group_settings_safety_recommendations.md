@@ -2,7 +2,7 @@
 
 Codex inspected the CHATTY Telegram group read-only. Codex did not post, send, pin, change settings, remove messages, DM anyone, or perform any public/cloud moderation action.
 
-If a human admin chooses to intervene later, these are the safest settings to consider:
+If a human admin chooses to intervene later, these are the cleanest settings to consider:
 
 - Keep the active pinned disclosure/admin note visible.
 - Enable slow mode during high-volume periods.

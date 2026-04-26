@@ -15,7 +15,7 @@ Date: 2026-04-23
 - Telegram pinned message completed manually by the human after action-time confirmation.
 - The pinned message used the prepared disclosure/rules language and public site URL from `telegram/pinned_message.md`.
 - Codex performed no additional Telegram posting, replies, DMs, invite creation, or pinning.
-- No safe public Telegram link was visible from the current session, so the site remains `Telegram: chatty link pending`.
+- No public Telegram link was visible from the current session, so the site remains `Telegram: chatty link pending`.
 - No hype, buying language, wallet address, donation request, DEX payment mention, or Codex-made public Telegram post was made.
 
 ## X

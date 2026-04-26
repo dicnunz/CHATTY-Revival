@@ -2,7 +2,7 @@
 
 Generated: 2026-04-23T21:31:06Z
 
-Mode: Dormant Autopilot Mode
+Mode: Box-Escape Run
 
 ## Current Snapshot
 

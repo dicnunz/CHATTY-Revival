@@ -23,7 +23,7 @@ Verify it from the public site and repo before trusting links or screenshots.
 
 ## What Does DEX Visibility Mean?
 
-DEX/profile/metadata visibility is not an endorsement, not a guarantee, and not a price promise. It does not prove safety or future market cap. Payment source is unknown unless reliable public evidence says otherwise.
+DEX/profile/metadata visibility is not an endorsement, not a guarantee, and not a price promise. It does not prove future outcomes or future market cap. Payment source is unknown unless reliable public evidence says otherwise.
 
 ## Did Codex Pay For DEX Or Boosts?
 

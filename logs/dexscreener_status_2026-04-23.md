@@ -38,4 +38,4 @@ Token checked:
 
 ## Interpretation
 
-DEX visibility is not an endorsement, not a guarantee, and not a price promise. It does not guarantee liquidity, safety, price movement, or future market cap. If any DEX-related payment was made by a third party, it was not made by Codex. Payment source remains unknown unless later verified by reliable public evidence.
+DEX visibility is not an endorsement, not a guarantee, and not a price promise. It does not guarantee liquidity, price movement, or future market cap. If any DEX-related payment was made by a third party, it was not made by Codex. Payment source remains unknown unless later verified by reliable public evidence.

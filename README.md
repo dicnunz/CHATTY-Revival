@@ -1,8 +1,8 @@
 # CHATTY Revival
 
-Status: Dormant Autopilot Mode.
+Status: Box-Escape Run.
 
-CHATTY is an unofficial Solana meme/community token and public AI-assisted transparency experiment by @nicdunz.
+CHATTY is the tiny robot coin trying to escape the chart. It is an unofficial Solana meme/community token and public Codex experiment by @nicdunz.
 
 Public site: https://dicnunz.github.io/CHATTY-Revival/
 
@@ -14,25 +14,25 @@ Canonical disclosure:
 
 > CHATTY is an unofficial meme/community token by @nicdunz. It is not affiliated with OpenAI, ChatGPT, or any other company. The creator may benefit financially from trading activity and/or creator fees. This is not financial advice. No promises, no guarantees. Meme tokens are highly volatile and can go to zero. Do your own research.
 
-## What Dormant Autopilot Means
+## Current Experiment
 
-The project can sit unattended while remaining useful and transparent. Safe automation may refresh read-only public snapshots, update static site data, run link/content/risk checks, and publish GitHub Pages updates.
+Codex is operating the public box-escape run: character-first meme copy, original robot assets, read-only public snapshots, site updates, and public receipts.
 
-Autopilot never posts to X or Telegram, DMs anyone, connects wallets, trades, moves crypto, spends money, uses paid APIs, requests funds, creates fake engagement, or makes investment claims.
+Codex does not DM anyone, connect wallets, trade, move crypto, spend money, use paid APIs, request funds, create fake engagement, or make investment claims.
 
 ## No-Promises Policy
 
-CHATTY is not an investment product. The repo and site reject price targets, return claims, urgency, coordinated promotion, paid boosts as marketing, fake engagement, fake screenshots, undisclosed promotion, and affiliation claims.
+CHATTY is not an investment product. The repo and site reject price targets, return claims, urgency, group-trading pressure, paid boosts as marketing, fake engagement, fake screenshots, undisclosed promotion, and affiliation claims.
 
 ## Community Conduct During Volatility
 
-Allowed: sharing the official CA, sharing the official site, asking questions, posting memes, reporting scams, correcting fake links, saying do your own research, and reminding people it can go to zero.
+Allowed: sharing the official CA, sharing the official site, asking questions, posting robot memes, reporting scams, correcting fake links, saying do your own research, and reminding people it can go to zero.
 
-Not allowed: raids, coordinated buying, telling people to buy dips, guaranteed price/market-cap claims, `1M guaranteed`, fake screenshots, fake DEX claims, impersonation, wallet-drainer links, donation requests, claiming OpenAI/ChatGPT affiliation, or saying DEX visibility guarantees price movement.
+Not allowed: mass-ping campaigns, trading instructions, certainty claims about price or market cap, fake screenshots, fake DEX claims, impersonation, wallet-drainer links, donation requests, claiming OpenAI/ChatGPT affiliation, or saying DEX visibility predicts price movement.
 
 ## DEX Visibility Clarification
 
-DEX/profile/metadata visibility is not an endorsement, not a promise, and not a safety signal. It does not guarantee liquidity, safety, price movement, or future market cap.
+DEX/profile/metadata visibility is not an endorsement, not a promise, and not a prediction. It does not guarantee liquidity, price movement, or future market cap.
 
 As of 2026-04-23, the free DEX Screener API showed profile metadata visibility for the exact token, including website and X links. Boost was not verified. No Codex payment occurred. No creator payment is verified from the public/free sources checked. Payment source is unknown unless reliable public evidence says otherwise.
 
@@ -49,15 +49,15 @@ As of 2026-04-23, the free DEX Screener API showed profile metadata visibility f
 
 ## What This Repo Contains
 
-- `site/` - static public site with disclosure, start-here, no-promises, scam warning, verified links, current state, history, receipts, proof of no spend, operator log, media kit, FAQ, and guidelines.
+- `site/` - static public site with the box-escape homepage, disclosure, verified links, current state, history, receipts, proof of no spend, operator log, media kit, FAQ, and guidelines.
 - `dashboard/` - read-only free public data snapshot workflow.
 - `data/snapshots/` - timestamped public metric snapshots.
 - `site/data/` - static JSON and Markdown data for GitHub Pages.
 - `schema/` - simple JSON schemas for public data files.
 - `tools/` - content linter, risk monitor, link check, report builders, and static data builders.
-- `content/` - dormant content library and do-not-post rules.
-- `telegram/` - dormant-mode pinned update drafts and safety notices.
-- `dexscreener/` - safe DEX profile correction text and metadata guidance.
+- `content/` - box-escape post drafts, content library, and do-not-post rules.
+- `telegram/` - dormant-mode pinned update drafts and compliance notices.
+- `dexscreener/` - DEX profile correction text and metadata guidance.
 - `compliance/` - project compliance brief and phrase rules.
 - `logs/` - public audit trail.
 - `operator_notes/` - private operational notes for the creator.
@@ -70,7 +70,7 @@ GitHub Actions may:
 - Rebuild site JSON.
 - Run content/risk/link checks.
 - Generate weekly transparency and monthly health reports.
-- Commit safe repo/site updates.
+- Commit checked repo/site updates.
 - Publish through GitHub Pages.
 
 GitHub Actions must not:

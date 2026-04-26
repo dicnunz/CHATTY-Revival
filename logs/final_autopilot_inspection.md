@@ -27,7 +27,7 @@ Timestamp: 2026-04-23T21:22:04Z
 - Site needs a long-term dormant autopilot explanation so visitors understand the project is not an active campaign.
 - Public links need a canonical verified-links page with unavailable values shown honestly.
 - Snapshot/public update renderer needed to preserve existing public logs instead of overwriting them.
-- More self-serve safety pages are needed: no-promises, scam warning, known unknowns, how to verify, receipts, proof of no spend.
+- More self-serve verification pages are needed: no-promises, scam warning, known unknowns, how to verify, receipts, proof of no spend.
 - GitHub Actions should run content/risk checks and safe read-only snapshot/report updates without social posting.
 - Data files should expose history, source confidence, project manifest, and autopilot status.
 - A stricter risk monitor should fail on hype, fake affiliation, missing disclosure, blank metrics, unknown wallet-like addresses, and stale snapshots.

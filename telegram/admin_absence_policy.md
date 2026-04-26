@@ -1,6 +1,6 @@
 # Telegram Admin Absence Policy
 
-CHATTY should remain safe even if no admin is actively present.
+CHATTY should remain clean even if no admin is actively present.
 
 - Site/repo are canonical.
 - Group may not be actively monitored.

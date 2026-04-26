@@ -1,6 +1,6 @@
 # DEX Screener Profile Correction Request Draft
 
-Use this if the creator or profile owner can safely edit DEX Screener metadata later. Do not connect a wallet, pay, buy boosts, or enter payment information just to make this edit.
+Use this if the creator or profile owner can edit DEX Screener metadata later. Do not connect a wallet, pay, buy boosts, or enter payment information just to make this edit.
 
 ## Safe Replacement Description
 
@@ -24,4 +24,4 @@ Unofficial AI-assisted meme/community experiment by @nicdunz. Not affiliated wit
 
 ## Notes
 
-DEX/profile/metadata visibility is not an endorsement, not a guarantee, and not a price promise. It does not guarantee liquidity, safety, price movement, or future market cap. Payment source should be listed as unknown unless there is reliable public evidence.
+DEX/profile/metadata visibility is not an endorsement, not a guarantee, and not a price promise. It does not guarantee liquidity, price movement, or future market cap. Payment source should be listed as unknown unless there is reliable public evidence.

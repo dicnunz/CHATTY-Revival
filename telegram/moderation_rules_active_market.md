@@ -36,7 +36,7 @@ Use these rules when CHATTY discussion becomes active or volatile.
 
 ## DEX Visibility Clarification
 
-DEX/profile/metadata visibility is not an endorsement, not a promise, and not a safety signal. It does not guarantee liquidity, safety, price movement, or future market cap. No Codex payment was made. No creator payment is verified from the free public sources checked. Payment source is unknown unless later verified by reliable public evidence.
+DEX/profile/metadata visibility is not an endorsement, not a promise, and not a prediction. It does not guarantee liquidity, price movement, or future market cap. No Codex payment was made. No creator payment is verified from the free public sources checked. Payment source is unknown unless later verified by reliable public evidence.
 
 ## Admin Handling
 

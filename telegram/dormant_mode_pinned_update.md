@@ -16,6 +16,6 @@ The project is unofficial and not affiliated with OpenAI, ChatGPT, or any other 
 
 Rules: no coordinated promotion, no price promises, no fake screenshots, no spam, no DMs asking for funds, and no wallet-connection requests. Verify contract and links from the site/repo only.
 
-DEX/profile/metadata visibility is not an endorsement, not a guarantee, and not a price promise. It does not guarantee liquidity, safety, price movement, or future market cap. No Codex payment was made, no boost was verified, and payment source is unknown unless reliable public evidence later says otherwise.
+DEX/profile/metadata visibility is not an endorsement, not a guarantee, and not a price promise. It does not guarantee liquidity, price movement, or future market cap. No Codex payment was made, no boost was verified, and payment source is unknown unless reliable public evidence later says otherwise.
 
 This draft was prepared for manual use only. Codex did not post, pin, send, change Telegram settings, or message anyone.

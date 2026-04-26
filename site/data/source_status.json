@@ -84,9 +84,9 @@
       "confidence": "verified",
       "error": "",
       "key": "x_post_url",
-      "label": "Initial X transparency post URL",
+      "label": "Current X box-escape post URL",
       "ok": true,
-      "url": "https://x.com/nicdunz/status/2047417227528265963"
+      "url": "https://x.com/nicdunz/status/2048220099669110846"
     },
     {
       "confidence": "manual",
@@ -113,6 +113,6 @@
       "url": "https://api.dexscreener.com/orders/v1/solana/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
     }
   ],
-  "timestamp": "2026-04-25T14:12:41Z",
+  "timestamp": "2026-04-26T13:40:00Z",
   "token_address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
 }
