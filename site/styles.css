@@ -276,8 +276,13 @@ a:focus-visible {
   border-bottom: 3px solid var(--line);
 }
 
+.bandless {
+  margin: clamp(28px, 4vw, 52px) 0;
+}
+
 .band h2,
-.page h2 {
+.page h2,
+.bandless h2 {
   margin: 0 0 18px;
   font-size: clamp(28px, 4vw, 52px);
   line-height: 1;
