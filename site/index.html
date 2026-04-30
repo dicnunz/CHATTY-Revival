@@ -90,19 +90,34 @@
         </div>
       </section>
 
-      <section class="section snapshot-section">
-        <div>
-          <p class="kicker">read-only snapshot</p>
-          <h2>Metrics are context, not a thesis.</h2>
-          <p class="section-lede">These fields are loaded from the free public snapshot when available. Missing data is not guessed.</p>
+      <section class="section coin-read-section" id="coin-read">
+        <div class="coin-read-copy">
+          <p class="kicker">live read</p>
+          <h2>Understand the coin in ten seconds.</h2>
+          <p class="section-lede" data-coin-summary>Loading the latest public snapshot.</p>
+          <p class="snapshot-note">Auto-updates from public JSON. Volatile, possibly stale, and not a trading signal.</p>
         </div>
-        <div class="metric-grid">
-          <div class="metric"><span>Price</span><strong data-field="price_usd" data-money="true">Unavailable from free public snapshot</strong></div>
-          <div class="metric"><span>Market cap</span><strong data-field="market_cap_usd" data-money="true">Unavailable from free public snapshot</strong></div>
-          <div class="metric"><span>Liquidity</span><strong data-field="liquidity_usd" data-money="true">Unavailable from free public snapshot</strong></div>
-          <div class="metric"><span>24h volume</span><strong data-field="volume_h24_usd" data-money="true">Unavailable from free public snapshot</strong></div>
+        <div class="coin-read-board" aria-label="CHATTY market read">
+          <div class="mood-card" data-market-mood="loading">
+            <span>now</span>
+            <strong data-market-status>checking chart</strong>
+            <p data-market-status-copy>Pulling the latest read-only data.</p>
+          </div>
+          <div class="normie-chart" data-normie-chart>
+            <p>Loading market-cap trail.</p>
+          </div>
+          <div class="coin-facts">
+            <div><span>Size</span><strong data-field="market_cap_usd" data-money="true">Unavailable from free public snapshot</strong><em>market cap</em></div>
+            <div><span>Today</span><strong data-market-change>--</strong><em>24h move</em></div>
+            <div><span>Depth</span><strong data-field="liquidity_usd" data-money="true">Unavailable from free public snapshot</strong><em>liquidity</em></div>
+            <div><span>Motion</span><strong data-trade-count>--</strong><em>public 24h trades</em></div>
+          </div>
+          <div class="status-line" aria-label="Snapshot metadata">
+            <span>Price <strong data-field="price_usd" data-money="true">Unavailable from free public snapshot</strong></span>
+            <span>Launch <strong data-curve-label>--</strong></span>
+            <span>Last read <strong data-field="timestamp">Snapshot unavailable</strong></span>
+          </div>
         </div>
-        <p class="snapshot-note">Last updated: <span data-field="timestamp">Snapshot unavailable</span>. Volatile, possibly stale, and not a trading signal.</p>
       </section>
 
       <section class="section split-section">
