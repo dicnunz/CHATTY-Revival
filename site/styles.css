@@ -266,8 +266,9 @@ a:focus-visible {
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: cover;
-  object-position: 38% 58%;
+  object-fit: contain;
+  object-position: center bottom;
+  padding: clamp(16px, 3vw, 34px);
 }
 
 .hero-visual figcaption {
