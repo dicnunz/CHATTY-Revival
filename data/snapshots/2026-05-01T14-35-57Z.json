@@ -1,0 +1,449 @@
+{
+  "current": {
+    "bonding_curve_complete": true,
+    "bonding_curve_progress": 100.0,
+    "decimals": 6,
+    "fdv_usd": 5435,
+    "geckoterminal_url": "https://www.geckoterminal.com/solana/pools/CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh",
+    "holders": "Unavailable from free public snapshot",
+    "image_uri": "https://ipfs.io/ipfs/QmdTEScb1VktnUCAxXJv9QAs5fTwC1Wwb8yHaojeebHK1A",
+    "liquidity_usd": 5773.29,
+    "market_cap_usd": 5435,
+    "metadata_uri": "https://ipfs.io/ipfs/QmekS6wTZeDUUTTKbGAPQDVELd2y8Y2xCqvfcnYhMAxDqH",
+    "name": "chatty",
+    "notes": [
+      "Read-only public data snapshot.",
+      "Market data changes quickly; this is not a recommendation.",
+      "Holder count is shown as unavailable from the free public snapshot unless manually verified from a public page."
+    ],
+    "orders_or_boosts": {
+      "boosts": [],
+      "orders": [
+        {
+          "chainId": "solana",
+          "paymentTimestamp": 1776979322461,
+          "status": "approved",
+          "tokenAddress": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
+          "type": "tokenProfile"
+        }
+      ]
+    },
+    "pair_address": "CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh",
+    "pair_url": "https://dexscreener.com/solana/cjazvo7knarsgqubnkmwfv5ukurxqzxt4c4raw1eybhh",
+    "price_change_h24_pct": 25.53,
+    "price_native_sol": "0.00000006464",
+    "price_usd": "0.000005436",
+    "pumpfun_url": "https://pump.fun/coin/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
+    "reply_count": 11,
+    "solscan_url": "https://solscan.io/token/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
+    "supply_ui": "999769885.522646",
+    "symbol": "CHATTY",
+    "timestamp": "2026-05-01T14:35:57Z",
+    "token_address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
+    "token_program": "spl-token-2022",
+    "twitter": "x.com/nicdunz",
+    "txns_h24": {
+      "buys": 113,
+      "sells": 99
+    },
+    "volume_h24_usd": 7420.6
+  },
+  "sources": {
+    "dexscreener_orders": {
+      "data": {
+        "boosts": [],
+        "orders": [
+          {
+            "chainId": "solana",
+            "paymentTimestamp": 1776979322461,
+            "status": "approved",
+            "tokenAddress": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
+            "type": "tokenProfile"
+          }
+        ]
+      },
+      "label": "DEX Screener orders API",
+      "ok": true,
+      "url": "https://api.dexscreener.com/orders/v1/solana/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
+    },
+    "dexscreener_token": {
+      "data": {
+        "pairs": [
+          {
+            "baseToken": {
+              "address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
+              "name": "chatty",
+              "symbol": "CHATTY"
+            },
+            "chainId": "solana",
+            "dexId": "pumpswap",
+            "fdv": 5435,
+            "info": {
+              "header": "https://cdn.dexscreener.com/cms/images/w94TVwqe6gfv6L7B?width=1500&height=500&quality=95&format=auto",
+              "imageUrl": "https://cdn.dexscreener.com/cms/images/W2PiO-LiR1WC2KBd?width=800&height=800&quality=95&format=auto",
+              "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump?timestamp=1777646100000",
+              "socials": [
+                {
+                  "type": "twitter",
+                  "url": "https://x.com/nicdunz/status/2047417227528265963"
+                }
+              ],
+              "websites": [
+                {
+                  "label": "Website",
+                  "url": "https://dicnunz.github.io/CHATTY-Revival/"
+                }
+              ]
+            },
+            "liquidity": {
+              "base": 528021355,
+              "quote": 34.5154,
+              "usd": 5773.29
+            },
+            "marketCap": 5435,
+            "pairAddress": "CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh",
+            "pairCreatedAt": 1776965238000,
+            "priceChange": {
+              "h1": -3.1,
+              "h24": 25.53,
+              "h6": 17.42,
+              "m5": -8.01
+            },
+            "priceNative": "0.00000006464",
+            "priceUsd": "0.000005436",
+            "quoteToken": {
+              "address": "So11111111111111111111111111111111111111112",
+              "name": "Wrapped SOL",
+              "symbol": "SOL"
+            },
+            "txns": {
+              "h1": {
+                "buys": 5,
+                "sells": 7
+              },
+              "h24": {
+                "buys": 113,
+                "sells": 99
+              },
+              "h6": {
+                "buys": 23,
+                "sells": 16
+              },
+              "m5": {
+                "buys": 0,
+                "sells": 4
+              }
+            },
+            "url": "https://dexscreener.com/solana/cjazvo7knarsgqubnkmwfv5ukurxqzxt4c4raw1eybhh",
+            "volume": {
+              "h1": 310.57,
+              "h24": 7420.6,
+              "h6": 972.75,
+              "m5": 122.1
+            }
+          }
+        ],
+        "schemaVersion": "1.0.0"
+      },
+      "label": "DEX Screener token API",
+      "ok": true,
+      "url": "https://api.dexscreener.com/latest/dex/tokens/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
+    },
+    "geckoterminal_pool": {
+      "data": {
+        "data": {
+          "attributes": {
+            "address": "CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh",
+            "base_token_price_native_currency": "0.0000000654706926537853",
+            "base_token_price_quote_token": "0.00000006547069265",
+            "base_token_price_usd": "0.00000543808769898615583525444571914067485206545602154952722422876146",
+            "fdv_usd": "5438.087699",
+            "locked_liquidity_percentage": "100.0",
+            "market_cap_usd": null,
+            "name": "CHATTY / SOL",
+            "pool_created_at": "2026-04-23T17:27:18Z",
+            "pool_fee_percentage": null,
+            "pool_name": "CHATTY / SOL",
+            "price_change_percentage": {
+              "h1": "-0.757",
+              "h24": "25.336",
+              "h6": "18.41",
+              "m15": "-2.325",
+              "m30": "-0.757",
+              "m5": "-6.094"
+            },
+            "quote_token_price_base_token": "15274009.7815688",
+            "quote_token_price_native_currency": "1.0",
+            "quote_token_price_usd": "84.125773811349723174188225105648180821675662402",
+            "reserve_in_usd": "5809.4249",
+            "transactions": {
+              "h1": {
+                "buyers": 5,
+                "buys": 5,
+                "sellers": 7,
+                "sells": 7
+              },
+              "h24": {
+                "buyers": 71,
+                "buys": 113,
+                "sellers": 75,
+                "sells": 99
+              },
+              "h6": {
+                "buyers": 20,
+                "buys": 23,
+                "sellers": 14,
+                "sells": 16
+              },
+              "m15": {
+                "buyers": 5,
+                "buys": 5,
+                "sellers": 6,
+                "sells": 6
+              },
+              "m30": {
+                "buyers": 5,
+                "buys": 5,
+                "sellers": 7,
+                "sells": 7
+              },
+              "m5": {
+                "buyers": 0,
+                "buys": 0,
+                "sellers": 4,
+                "sells": 4
+              }
+            },
+            "volume_usd": {
+              "h1": "310.7153048743",
+              "h24": "7424.4010024831",
+              "h6": "973.1696161445",
+              "m15": "280.6468026722",
+              "m30": "310.7153048743",
+              "m5": "122.1476914352"
+            }
+          },
+          "id": "solana_CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh",
+          "relationships": {
+            "base_token": {
+              "data": {
+                "id": "solana_jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
+                "type": "token"
+              }
+            },
+            "dex": {
+              "data": {
+                "id": "pumpswap",
+                "type": "dex"
+              }
+            },
+            "quote_token": {
+              "data": {
+                "id": "solana_So11111111111111111111111111111111111111112",
+                "type": "token"
+              }
+            }
+          },
+          "type": "pool"
+        }
+      },
+      "label": "GeckoTerminal pool API",
+      "ok": true,
+      "url": "https://api.geckoterminal.com/api/v2/networks/solana/pools/CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh"
+    },
+    "geckoterminal_token": {
+      "data": {
+        "data": {
+          "attributes": {
+            "address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
+            "coingecko_coin_id": null,
+            "decimals": 6,
+            "fdv_usd": "5438.0876989862",
+            "image_url": "https://assets.geckoterminal.com/a2btq10biaq7f7ecbkzuwejhyu8i",
+            "launchpad_details": {
+              "completed": true,
+              "completed_at": "2026-04-23T17:27:18.000Z",
+              "graduation_percentage": 100.0,
+              "migrated_destination_pool_address": "CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh"
+            },
+            "market_cap_usd": null,
+            "name": "chatty",
+            "normalized_total_supply": "1000000000.0",
+            "price_usd": "0.000005438087699",
+            "symbol": "CHATTY",
+            "total_reserve_in_usd": "2868.510477537792524873117",
+            "total_supply": "1000000000000000.0",
+            "volume_usd": {
+              "h24": "7424.4010024831"
+            }
+          },
+          "id": "solana_jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
+          "relationships": {
+            "top_pools": {
+              "data": [
+                {
+                  "id": "solana_CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh",
+                  "type": "pool"
+                }
+              ]
+            }
+          },
+          "type": "token"
+        }
+      },
+      "label": "GeckoTerminal token API",
+      "ok": true,
+      "url": "https://api.geckoterminal.com/api/v2/networks/solana/tokens/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
+    },
+    "ipfs_metadata": {
+      "data": {
+        "createdOn": "https://pump.fun",
+        "description": "unofficial meme coin by @nicdunz on x\n\nnot affiliated with openai or chatgpt",
+        "image": "https://ipfs.io/ipfs/QmdTEScb1VktnUCAxXJv9QAs5fTwC1Wwb8yHaojeebHK1A",
+        "name": "chatty",
+        "showName": "true",
+        "symbol": "CHATTY",
+        "twitter": "x.com/nicdunz"
+      },
+      "label": "IPFS metadata",
+      "ok": true,
+      "url": "https://ipfs.io/ipfs/QmekS6wTZeDUUTTKbGAPQDVELd2y8Y2xCqvfcnYhMAxDqH"
+    },
+    "pumpfun_coin": {
+      "data": {
+        "associated_bonding_curve": "8gGHaDNFC8ASFDUCDZmN7zLZUAb7au9AvDDqMJAxQQwd",
+        "ath_market_cap": 89583.3391624496,
+        "ath_market_cap_timestamp": 1776979262000,
+        "base_decimals": 6,
+        "bonding_curve": "FGhar5ADuMbNsKjGAySPiyctG6o3gkKMJ38iPA3CoRRZ",
+        "chain_id": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+        "complete": true,
+        "created_timestamp": 1776963002000,
+        "creator": "8CgeLpoiJ2EhunG14wce2SDMtsfV4L4YXLMnGf589rKu",
+        "description": "unofficial meme coin by @nicdunz on x not affiliated with openai or chatgpt",
+        "hide_banner": false,
+        "image_uri": "https://ipfs.io/ipfs/QmdTEScb1VktnUCAxXJv9QAs5fTwC1Wwb8yHaojeebHK1A",
+        "initialized": true,
+        "inverted": true,
+        "is_banned": false,
+        "is_cashback_enabled": false,
+        "is_currently_live": false,
+        "last_trade_timestamp": 1777646064000,
+        "livestream_ban_expiry": 0,
+        "market_cap": 65.36748384945635,
+        "metadata_uri": "https://ipfs.io/ipfs/QmekS6wTZeDUUTTKbGAPQDVELd2y8Y2xCqvfcnYhMAxDqH",
+        "mint": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
+        "multichain_family": 1,
+        "name": "chatty",
+        "nsfw": false,
+        "pool_address": "CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh",
+        "program": "pump",
+        "protocol": "pump",
+        "pump_swap_pool": "CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh",
+        "quote_decimals": 9,
+        "quote_mint": "So11111111111111111111111111111111111111112",
+        "real_sol_reserves": 0,
+        "real_token_reserves": 0,
+        "reply_count": 11,
+        "show_name": true,
+        "symbol": "CHATTY",
+        "token_program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "total_supply": 1000000000000000,
+        "total_supply_str": "1000000000000000",
+        "twitter": "x.com/nicdunz",
+        "updated_at": 1777646066,
+        "usd_market_cap": 5496.156017785877,
+        "virtual_sol_reserves": 110628926872,
+        "virtual_token_reserves": 290972724568955
+      },
+      "label": "Pump.fun coin API",
+      "ok": true,
+      "url": "https://frontend-api-v3.pump.fun/coins/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
+    },
+    "solana_account_info": {
+      "data": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "result": {
+          "context": {
+            "apiVersion": "4.0.0-rc.0",
+            "slot": 416895223
+          },
+          "value": {
+            "data": {
+              "parsed": {
+                "info": {
+                  "decimals": 6,
+                  "extensions": [
+                    {
+                      "extension": "metadataPointer",
+                      "state": {
+                        "authority": null,
+                        "metadataAddress": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
+                      }
+                    },
+                    {
+                      "extension": "tokenMetadata",
+                      "state": {
+                        "additionalMetadata": [],
+                        "mint": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
+                        "name": "chatty",
+                        "symbol": "CHATTY",
+                        "updateAuthority": null,
+                        "uri": "https://ipfs.io/ipfs/QmekS6wTZeDUUTTKbGAPQDVELd2y8Y2xCqvfcnYhMAxDqH"
+                      }
+                    }
+                  ],
+                  "freezeAuthority": null,
+                  "isInitialized": true,
+                  "mintAuthority": null,
+                  "supply": "999769885522646"
+                },
+                "type": "mint"
+              },
+              "program": "spl-token-2022",
+              "space": 397
+            },
+            "executable": false,
+            "lamports": 5735202920,
+            "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+            "rentEpoch": 18446744073709551615,
+            "space": 397
+          }
+        }
+      },
+      "label": "solana_rpc:getAccountInfo",
+      "ok": true,
+      "url": "https://api.mainnet-beta.solana.com"
+    },
+    "solana_largest_accounts": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "label": "solana_rpc:getTokenLargestAccounts",
+      "ok": false,
+      "url": "https://api.mainnet-beta.solana.com"
+    },
+    "solana_token_supply": {
+      "data": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "result": {
+          "context": {
+            "apiVersion": "3.1.13",
+            "slot": 416895223
+          },
+          "value": {
+            "amount": "999769885522646",
+            "decimals": 6,
+            "uiAmount": 999769885.522646,
+            "uiAmountString": "999769885.522646"
+          }
+        }
+      },
+      "label": "solana_rpc:getTokenSupply",
+      "ok": true,
+      "url": "https://api.mainnet-beta.solana.com"
+    }
+  },
+  "timestamp": "2026-05-01T14:35:57Z",
+  "token_address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
+}
