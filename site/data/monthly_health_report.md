@@ -1,8 +1,8 @@
 # CHATTY Monthly Autopilot Health Report
 
-Generated: 2026-04-23T21:31:06Z
+Generated: 2026-05-01T17:15:22Z
 
-Mode: Box-Escape Run
+Mode: Dormant Autopilot Mode
 
 ## Snapshot Freshness
 
