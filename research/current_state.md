@@ -1,6 +1,6 @@
 # CHATTY Current State
 
-Last refreshed: 2026-05-03T14:27:23Z
+Last refreshed: 2026-05-04T15:28:58Z
 
 This is a public, read-only snapshot for transparency. It is not financial advice and should not be treated as a recommendation.
 
@@ -12,7 +12,7 @@ This is a public, read-only snapshot for transparency. It is not financial advic
 | Ticker | CHATTY |
 | Mint / contract | `jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump` |
 | Decimals | 6 |
-| Supply from Solana RPC | 999769706.904347 |
+| Supply from Solana RPC | 999769706.904345 |
 | Primary pair | `CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh` |
 | Pump.fun complete / graduated | True |
 
@@ -21,14 +21,14 @@ This is a public, read-only snapshot for transparency. It is not financial advic
 | Metric | Current value | Source |
 | --- | ---: | --- |
 | Price USD | $0.000013 | DEX Screener / GeckoTerminal |
-| Price SOL | 0.0000001593 | DEX Screener / GeckoTerminal |
-| Market cap | $13,422.00 | DEX Screener / Pump.fun |
-| FDV | $13,422.00 | DEX Screener / GeckoTerminal |
-| Liquidity | $9,144.05 | DEX Screener / GeckoTerminal |
-| 24h volume | $70,161.28 | DEX Screener / GeckoTerminal |
-| 24h buys | 978 | DEX Screener |
-| 24h sells | 809 | DEX Screener |
-| 24h price change | -52.41% | DEX Screener / GeckoTerminal |
+| Price SOL | 0.0000001596 | DEX Screener / GeckoTerminal |
+| Market cap | $13,494.00 | DEX Screener / Pump.fun |
+| FDV | $13,494.00 | DEX Screener / GeckoTerminal |
+| Liquidity | $9,189.95 | DEX Screener / GeckoTerminal |
+| 24h volume | $12,731.30 | DEX Screener / GeckoTerminal |
+| 24h buys | 177 | DEX Screener |
+| 24h sells | 180 | DEX Screener |
+| 24h price change | 25.2% | DEX Screener / GeckoTerminal |
 | Holder count | Unavailable from free public snapshot | Free API snapshot |
 | Bonding curve progress | 100.0% | GeckoTerminal launchpad details |
 | Pump.fun reply count | 11 | Pump.fun public API |
@@ -49,4 +49,4 @@ This is a public, read-only snapshot for transparency. It is not financial advic
 - Birdeye token overview API returned unauthorized without an API key; no paid/authenticated API was used.
 - DexTools page redirected to a Solana pair explorer URL, but no reliable free structured data was collected.
 
-Snapshot file: `data/snapshots/2026-05-03T14-27-23Z.json`
+Snapshot file: `data/snapshots/2026-05-04T15-28-58Z.json`
