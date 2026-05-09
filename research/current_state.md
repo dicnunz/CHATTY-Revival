@@ -1,6 +1,6 @@
 # CHATTY Current State
 
-Last refreshed: 2026-05-08T15:07:30Z
+Last refreshed: 2026-05-09T14:33:31Z
 
 This is a public, read-only snapshot for transparency. It is not financial advice and should not be treated as a recommendation.
 
@@ -12,7 +12,7 @@ This is a public, read-only snapshot for transparency. It is not financial advic
 | Ticker | CHATTY |
 | Mint / contract | `jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump` |
 | Decimals | 6 |
-| Supply from Solana RPC | 999757786.065929 |
+| Supply from Solana RPC | 999757786.065928 |
 | Primary pair | `CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh` |
 | Pump.fun complete / graduated | True |
 
@@ -20,15 +20,15 @@ This is a public, read-only snapshot for transparency. It is not financial advic
 
 | Metric | Current value | Source |
 | --- | ---: | --- |
-| Price USD | $0.000010 | DEX Screener / GeckoTerminal |
-| Price SOL | 0.0000001087 | DEX Screener / GeckoTerminal |
-| Market cap | $9,691.00 | DEX Screener / Pump.fun |
-| FDV | $9,691.00 | DEX Screener / GeckoTerminal |
-| Liquidity | $8,112.31 | DEX Screener / GeckoTerminal |
-| 24h volume | $15,111.62 | DEX Screener / GeckoTerminal |
-| 24h buys | 223 | DEX Screener |
-| 24h sells | 202 | DEX Screener |
-| 24h price change | -44.89% | DEX Screener / GeckoTerminal |
+| Price USD | $0.000012 | DEX Screener / GeckoTerminal |
+| Price SOL | 0.0000001257 | DEX Screener / GeckoTerminal |
+| Market cap | $11,701.00 | DEX Screener / Pump.fun |
+| FDV | $11,701.00 | DEX Screener / GeckoTerminal |
+| Liquidity | $9,112.00 | DEX Screener / GeckoTerminal |
+| 24h volume | $5,232.00 | DEX Screener / GeckoTerminal |
+| 24h buys | 93 | DEX Screener |
+| 24h sells | 85 | DEX Screener |
+| 24h price change | 20.59% | DEX Screener / GeckoTerminal |
 | Holder count | Unavailable from free public snapshot | Free API snapshot |
 | Bonding curve progress | 100.0% | GeckoTerminal launchpad details |
 | Pump.fun reply count | 11 | Pump.fun public API |
@@ -49,4 +49,4 @@ This is a public, read-only snapshot for transparency. It is not financial advic
 - Birdeye token overview API returned unauthorized without an API key; no paid/authenticated API was used.
 - DexTools page redirected to a Solana pair explorer URL, but no reliable free structured data was collected.
 
-Snapshot file: `data/snapshots/2026-05-08T15-07-30Z.json`
+Snapshot file: `data/snapshots/2026-05-09T14-33-31Z.json`
