@@ -1,6 +1,6 @@
 {
   "active_market_hardening_completed": true,
-  "commit": "64c7d2193382e8cdbf97d8fc43787fdc4f10afcf",
+  "commit": "69cb92071894cca96fb6f862b7f4f73028807c47",
   "creator_payment_to_dex_verified": false,
   "dex_boost_verified": false,
   "dormant": true,
@@ -12,9 +12,9 @@
   "no_paid_services": true,
   "no_social_autoposting": true,
   "no_wallet_connected": true,
-  "pages_run": "https://github.com/dicnunz/CHATTY-Revival/actions/runs/26409422911",
+  "pages_run": "https://github.com/dicnunz/CHATTY-Revival/actions/runs/26462560146",
   "social_autoposting": false,
   "third_party_dex_payment_or_metadata_status": "unclear",
-  "timestamp": "2026-05-25T16:06:10Z",
+  "timestamp": "2026-05-26T16:55:12Z",
   "wallet_actions": false
 }
