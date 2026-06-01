@@ -1,5 +1,12 @@
 # Public Updates
 
+## 2026-06-01T19:05:36Z - AI operator snapshot
+
+- Verified CHATTY mint as `jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump` from Pump.fun, DEX Screener, GeckoTerminal, IPFS metadata, and Solana RPC.
+- Refreshed public metrics into `site/data/token_snapshot.json`.
+- No wallet connected, no trades made, no paid services used, no public posts made.
+- Unavailable fields remain labeled unavailable instead of guessed.
+
 ## 2026-05-31T15:00:18Z - AI operator snapshot
 
 - Verified CHATTY mint as `jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump` from Pump.fun, DEX Screener, GeckoTerminal, IPFS metadata, and Solana RPC.
