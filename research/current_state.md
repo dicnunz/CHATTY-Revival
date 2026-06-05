@@ -1,6 +1,6 @@
 # CHATTY Current State
 
-Last refreshed: 2026-06-04T16:31:51Z
+Last refreshed: 2026-06-05T16:11:38Z
 
 This is a public, read-only snapshot for transparency. It is not financial advice and should not be treated as a recommendation.
 
@@ -21,14 +21,14 @@ This is a public, read-only snapshot for transparency. It is not financial advic
 | Metric | Current value | Source |
 | --- | ---: | --- |
 | Price USD | $0.000007 | DEX Screener / GeckoTerminal |
-| Price SOL | 0.0000001064 | DEX Screener / GeckoTerminal |
-| Market cap | $7,463.00 | DEX Screener / Pump.fun |
-| FDV | $7,463.00 | DEX Screener / GeckoTerminal |
-| Liquidity | $6,333.37 | DEX Screener / GeckoTerminal |
-| 24h volume | $1,726.04 | DEX Screener / GeckoTerminal |
-| 24h buys | 33 | DEX Screener |
-| 24h sells | 15 | DEX Screener |
-| 24h price change | 40.21% | DEX Screener / GeckoTerminal |
+| Price SOL | 0.0000001045 | DEX Screener / GeckoTerminal |
+| Market cap | $6,932.00 | DEX Screener / Pump.fun |
+| FDV | $6,932.00 | DEX Screener / GeckoTerminal |
+| Liquidity | $5,935.41 | DEX Screener / GeckoTerminal |
+| 24h volume | $203.90 | DEX Screener / GeckoTerminal |
+| 24h buys | 4 | DEX Screener |
+| 24h sells | 6 | DEX Screener |
+| 24h price change | -7.25% | DEX Screener / GeckoTerminal |
 | Holder count | Unavailable from free public snapshot | Free API snapshot |
 | Bonding curve progress | 100.0% | GeckoTerminal launchpad details |
 | Pump.fun reply count | 11 | Pump.fun public API |
@@ -49,4 +49,4 @@ This is a public, read-only snapshot for transparency. It is not financial advic
 - Birdeye token overview API returned unauthorized without an API key; no paid/authenticated API was used.
 - DexTools page redirected to a Solana pair explorer URL, but no reliable free structured data was collected.
 
-Snapshot file: `data/snapshots/2026-06-04T16-31-51Z.json`
+Snapshot file: `data/snapshots/2026-06-05T16-11-38Z.json`
