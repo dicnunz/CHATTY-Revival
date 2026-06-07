@@ -1,17 +1,17 @@
 # Weekly CHATTY Transparency Report
 
-Generated: 2026-05-31T16:02:21Z
+Generated: 2026-06-07T16:10:40Z
 
 Mode: Dormant Autopilot Mode
 
 ## Current Snapshot
 
 - Token address: `jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump`
-- Latest snapshot timestamp: 2026-05-31T15:00:18Z
-- Price: 0.000008627
-- Market cap: 8626
-- Liquidity: 7381
-- 24h volume: 237.91
+- Latest snapshot timestamp: 2026-06-07T15:09:22Z
+- Price: 0.000005830
+- Market cap: 5829
+- Liquidity: 5379.08
+- 24h volume: 260.01
 - Holders: Unavailable from free public snapshot
 
 Unavailable means unavailable from the free read-only snapshot, not zero.
