@@ -1,6 +1,6 @@
 # CHATTY Sources
 
-Last refreshed: 2026-06-21T15:23:16Z
+Last refreshed: 2026-06-22T18:01:37Z
 
 | Source | URL | Status |
 | --- | --- | --- |
@@ -10,7 +10,7 @@ Last refreshed: 2026-06-21T15:23:16Z
 | GeckoTerminal token API | https://api.geckoterminal.com/api/v2/networks/solana/tokens/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump | ok |
 | IPFS metadata | https://ipfs.io/ipfs/QmekS6wTZeDUUTTKbGAPQDVELd2y8Y2xCqvfcnYhMAxDqH | ok |
 | Pump.fun coin API | https://frontend-api-v3.pump.fun/coins/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump | ok |
-| solana_rpc:getAccountInfo | https://api.mainnet-beta.solana.com | unavailable (The read operation timed out) |
+| solana_rpc:getAccountInfo | https://api.mainnet-beta.solana.com | ok |
 | solana_rpc:getTokenLargestAccounts | https://api.mainnet-beta.solana.com | unavailable (HTTP Error 429: Too Many Requests) |
 | solana_rpc:getTokenSupply | https://api.mainnet-beta.solana.com | ok |
 | DEX Screener page | https://dexscreener.com/solana/cjazvo7knarsgqubnkmwfv5ukurxqzxt4c4raw1eybhh | checked via browser/web extraction |

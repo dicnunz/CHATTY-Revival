@@ -57,11 +57,11 @@
       "url": "https://frontend-api-v3.pump.fun/coins/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
     },
     {
-      "confidence": "unavailable",
-      "error": "The read operation timed out",
+      "confidence": "verified",
+      "error": "",
       "key": "solana_account_info",
       "label": "solana_rpc:getAccountInfo",
-      "ok": false,
+      "ok": true,
       "url": "https://api.mainnet-beta.solana.com"
     },
     {
@@ -113,6 +113,6 @@
       "url": "https://api.dexscreener.com/orders/v1/solana/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
     }
   ],
-  "timestamp": "2026-06-21T15:23:42Z",
+  "timestamp": "2026-06-22T18:01:38Z",
   "token_address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
 }
