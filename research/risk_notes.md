@@ -1,6 +1,6 @@
 # CHATTY Risk Notes
 
-Last refreshed: 2026-07-18T14:33:42Z
+Last refreshed: 2026-07-19T14:36:54Z
 
 - CHATTY is a meme/community token, not an investment product.
 - The creator may benefit financially from trading activity and/or creator fees.
