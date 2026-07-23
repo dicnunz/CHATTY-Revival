@@ -1,6 +1,6 @@
 # CHATTY Current State
 
-Last refreshed: 2026-07-22T15:18:48Z
+Last refreshed: 2026-07-23T15:30:21Z
 
 This is a public, read-only snapshot for transparency. It is not financial advice and should not be treated as a recommendation.
 
@@ -22,9 +22,9 @@ This is a public, read-only snapshot for transparency. It is not financial advic
 | --- | ---: | --- |
 | Price USD | $0.000004 | DEX Screener / GeckoTerminal |
 | Price SOL | 0.0000000513591386064306 | DEX Screener / GeckoTerminal |
-| Market cap | $4,048.43 | DEX Screener / Pump.fun |
+| Market cap | $3,940.73 | DEX Screener / Pump.fun |
 | FDV | $4,021.20 | DEX Screener / GeckoTerminal |
-| Liquidity | $4,907.52 | DEX Screener / GeckoTerminal |
+| Liquidity | $4,816.69 | DEX Screener / GeckoTerminal |
 | 24h volume | $0.000000 | DEX Screener / GeckoTerminal |
 | 24h buys | unavailable | DEX Screener |
 | 24h sells | unavailable | DEX Screener |
@@ -49,4 +49,4 @@ This is a public, read-only snapshot for transparency. It is not financial advic
 - Birdeye token overview API returned unauthorized without an API key; no paid/authenticated API was used.
 - DexTools page redirected to a Solana pair explorer URL, but no reliable free structured data was collected.
 
-Snapshot file: `data/snapshots/2026-07-22T15-18-48Z.json`
+Snapshot file: `data/snapshots/2026-07-23T15-30-21Z.json`
