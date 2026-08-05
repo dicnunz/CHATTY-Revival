@@ -7,7 +7,7 @@
   "holders": "Unavailable from free public snapshot",
   "image_uri": "https://ipfs.io/ipfs/QmdTEScb1VktnUCAxXJv9QAs5fTwC1Wwb8yHaojeebHK1A",
   "liquidity_usd": "3555.6363",
-  "market_cap_usd": 2268.2262753386153,
+  "market_cap_usd": 2265.8797086928125,
   "metadata_uri": "https://ipfs.io/ipfs/QmekS6wTZeDUUTTKbGAPQDVELd2y8Y2xCqvfcnYhMAxDqH",
   "name": "chatty",
   "notes": [
@@ -37,7 +37,7 @@
   "solscan_url": "https://solscan.io/token/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
   "supply_ui": "999745245.266612",
   "symbol": "CHATTY",
-  "timestamp": "2026-08-04T15:52:33Z",
+  "timestamp": "2026-08-05T15:36:22Z",
   "token_address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
   "token_program": "spl-token-2022",
   "twitter": "x.com/nicdunz",
