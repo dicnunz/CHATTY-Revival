@@ -1,6 +1,6 @@
 # CHATTY Sources
 
-Last refreshed: 2026-08-13T14:34:54Z
+Last refreshed: 2026-08-14T14:29:15Z
 
 | Source | URL | Status |
 | --- | --- | --- |
