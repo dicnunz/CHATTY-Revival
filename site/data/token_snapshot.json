@@ -7,7 +7,7 @@
   "holders": "Unavailable from free public snapshot",
   "image_uri": "https://ipfs.io/ipfs/QmdTEScb1VktnUCAxXJv9QAs5fTwC1Wwb8yHaojeebHK1A",
   "liquidity_usd": "4195.205",
-  "market_cap_usd": 2575.81777023264,
+  "market_cap_usd": 2578.6607639126732,
   "metadata_uri": "https://ipfs.io/ipfs/QmekS6wTZeDUUTTKbGAPQDVELd2y8Y2xCqvfcnYhMAxDqH",
   "name": "chatty",
   "notes": [
@@ -15,18 +15,7 @@
     "Market data changes quickly; this is not a recommendation.",
     "Holder count is shown as unavailable from the free public snapshot unless manually verified from a public page."
   ],
-  "orders_or_boosts": {
-    "boosts": [],
-    "orders": [
-      {
-        "chainId": "solana",
-        "paymentTimestamp": 1776979322461,
-        "status": "approved",
-        "tokenAddress": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
-        "type": "tokenProfile"
-      }
-    ]
-  },
+  "orders_or_boosts": {},
   "pair_address": "CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh",
   "pair_url": null,
   "price_change_h24_pct": "0",
@@ -37,7 +26,7 @@
   "solscan_url": "https://solscan.io/token/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
   "supply_ui": "999745188.968861",
   "symbol": "CHATTY",
-  "timestamp": "2026-08-23T13:52:49Z",
+  "timestamp": "2026-08-24T14:09:01Z",
   "token_address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
   "token_program": "spl-token-2022",
   "twitter": "x.com/nicdunz",

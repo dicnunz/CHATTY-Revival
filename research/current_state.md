@@ -1,6 +1,6 @@
 # CHATTY Current State
 
-Last refreshed: 2026-08-23T13:52:49Z
+Last refreshed: 2026-08-24T14:09:01Z
 
 This is a public, read-only snapshot for transparency. It is not financial advice and should not be treated as a recommendation.
 
@@ -22,7 +22,7 @@ This is a public, read-only snapshot for transparency. It is not financial advic
 | --- | ---: | --- |
 | Price USD | $0.000002 | DEX Screener / GeckoTerminal |
 | Price SOL | 0.0000000269005102478921 | DEX Screener / GeckoTerminal |
-| Market cap | $2,575.82 | DEX Screener / Pump.fun |
+| Market cap | $2,578.66 | DEX Screener / Pump.fun |
 | FDV | $2,345.71 | DEX Screener / GeckoTerminal |
 | Liquidity | $4,195.20 | DEX Screener / GeckoTerminal |
 | 24h volume | $0.000000 | DEX Screener / GeckoTerminal |
@@ -32,7 +32,7 @@ This is a public, read-only snapshot for transparency. It is not financial advic
 | Holder count | Unavailable from free public snapshot | Free API snapshot |
 | Bonding curve progress | 100.0% | GeckoTerminal launchpad details |
 | Pump.fun reply count | 11 | Pump.fun public API |
-| DEX Screener boosts/orders | {'boosts': [], 'orders': [{'chainId': 'solana', 'paymentTimestamp': 1776979322461, 'status': 'approved', 'tokenAddress': 'jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump', 'type': 'tokenProfile'}]} | DEX Screener orders API |
+| DEX Screener boosts/orders | {} | DEX Screener orders API |
 
 ## Links Checked
 
@@ -49,4 +49,4 @@ This is a public, read-only snapshot for transparency. It is not financial advic
 - Birdeye token overview API returned unauthorized without an API key; no paid/authenticated API was used.
 - DexTools page redirected to a Solana pair explorer URL, but no reliable free structured data was collected.
 
-Snapshot file: `data/snapshots/2026-08-23T13-52-49Z.json`
+Snapshot file: `data/snapshots/2026-08-24T14-09-01Z.json`
