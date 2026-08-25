@@ -1,10 +1,10 @@
 # CHATTY Sources
 
-Last refreshed: 2026-08-24T14:09:01Z
+Last refreshed: 2026-08-25T14:11:58Z
 
 | Source | URL | Status |
 | --- | --- | --- |
-| DEX Screener orders API | https://api.dexscreener.com/orders/v1/solana/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump | unavailable (The read operation timed out) |
+| DEX Screener orders API | https://api.dexscreener.com/orders/v1/solana/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump | ok |
 | DEX Screener token API | https://api.dexscreener.com/latest/dex/tokens/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump | ok |
 | GeckoTerminal pool API | https://api.geckoterminal.com/api/v2/networks/solana/pools/CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh | ok |
 | GeckoTerminal token API | https://api.geckoterminal.com/api/v2/networks/solana/tokens/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump | ok |

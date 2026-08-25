@@ -9,11 +9,11 @@
   "note": "Unavailable means unavailable from the free read-only snapshot, not zero.",
   "source_status": [
     {
-      "confidence": "unavailable",
-      "error": "The read operation timed out",
+      "confidence": "verified",
+      "error": "",
       "key": "dexscreener_orders",
       "label": "DEX Screener orders API",
-      "ok": false,
+      "ok": true,
       "url": "https://api.dexscreener.com/orders/v1/solana/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
     },
     {
@@ -113,6 +113,6 @@
       "url": "https://api.dexscreener.com/orders/v1/solana/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
     }
   ],
-  "timestamp": "2026-08-24T14:09:34Z",
+  "timestamp": "2026-08-25T14:12:01Z",
   "token_address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
 }
