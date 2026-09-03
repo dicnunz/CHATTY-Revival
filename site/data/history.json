@@ -1644,8 +1644,20 @@
       "timestamp": "2026-09-02T17:13:49Z",
       "token_address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
       "volume_h24_usd": "0.0"
+    },
+    {
+      "bonding_curve_progress": 100.0,
+      "holders": "Unavailable from free public snapshot",
+      "liquidity_usd": "4636.6407",
+      "market_cap_usd": 2758.348436300757,
+      "notes": "Volatile historical public snapshot; not a trading signal.",
+      "price_usd": "0.000002801487146",
+      "source_file": "data/snapshots/2026-09-03T17-05-34Z.json",
+      "timestamp": "2026-09-03T17:05:34Z",
+      "token_address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump",
+      "volume_h24_usd": "0.0"
     }
   ],
-  "timestamp": "2026-09-02T17:13:51Z",
+  "timestamp": "2026-09-03T17:05:36Z",
   "token_address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
 }

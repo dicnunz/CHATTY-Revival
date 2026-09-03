@@ -1,6 +1,6 @@
 # CHATTY Sources
 
-Last refreshed: 2026-09-02T17:13:49Z
+Last refreshed: 2026-09-03T17:05:34Z
 
 | Source | URL | Status |
 | --- | --- | --- |
@@ -8,7 +8,7 @@ Last refreshed: 2026-09-02T17:13:49Z
 | DEX Screener token API | https://api.dexscreener.com/latest/dex/tokens/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump | ok |
 | GeckoTerminal pool API | https://api.geckoterminal.com/api/v2/networks/solana/pools/CJazvo7knaRsgqUbNkmwFv5UKuRXqZXT4C4RaW1Eybhh | ok |
 | GeckoTerminal token API | https://api.geckoterminal.com/api/v2/networks/solana/tokens/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump | ok |
-| IPFS metadata | https://ipfs.io/ipfs/QmekS6wTZeDUUTTKbGAPQDVELd2y8Y2xCqvfcnYhMAxDqH | ok |
+| IPFS metadata | https://ipfs.io/ipfs/QmekS6wTZeDUUTTKbGAPQDVELd2y8Y2xCqvfcnYhMAxDqH | unavailable (HTTP Error 429: Too Many Requests) |
 | Pump.fun coin API | https://frontend-api-v3.pump.fun/coins/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump | ok |
 | solana_rpc:getAccountInfo | https://api.mainnet-beta.solana.com | ok |
 | solana_rpc:getTokenLargestAccounts | https://api.mainnet-beta.solana.com | unavailable (HTTP Error 429: Too Many Requests) |

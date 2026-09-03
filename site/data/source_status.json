@@ -41,11 +41,11 @@
       "url": "https://api.geckoterminal.com/api/v2/networks/solana/tokens/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
     },
     {
-      "confidence": "verified",
-      "error": "",
+      "confidence": "unavailable",
+      "error": "HTTP Error 429: Too Many Requests",
       "key": "ipfs_metadata",
       "label": "IPFS metadata",
-      "ok": true,
+      "ok": false,
       "url": "https://ipfs.io/ipfs/QmekS6wTZeDUUTTKbGAPQDVELd2y8Y2xCqvfcnYhMAxDqH"
     },
     {
@@ -113,6 +113,6 @@
       "url": "https://api.dexscreener.com/orders/v1/solana/jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
     }
   ],
-  "timestamp": "2026-09-02T17:13:51Z",
+  "timestamp": "2026-09-03T17:05:36Z",
   "token_address": "jSHyGRfqkGBKdjUPrZXaqPXzFpBTjimJtheWZJRpump"
 }
